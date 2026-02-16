@@ -15,6 +15,10 @@ buildExpired = false
 [pagination]
   pagerSize = 5
 
+[params.assets]
+    disableFingerprinting = true
+    disableHLJS = true
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
