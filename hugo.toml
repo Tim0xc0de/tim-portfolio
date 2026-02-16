@@ -1,6 +1,9 @@
-baseURL = "https://Tim0xC0de.github.io/tim-portfolio/"
+baseURL = "https://tim0xc0de.github.io/tim-portfolio/"
 title = "Tim Mehmeti"
 theme = "PaperMod"
+
+canonifyURLs = true
+relativeURLs = false
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -8,6 +11,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
+
 [pagination]
   pagerSize = 5
 
@@ -21,48 +25,41 @@ buildExpired = false
     contentDir = "content/en"
     title = "Tim Mehmeti — Backend Developer"
 
-    [languages.en.params]
-      socialIcons = [
-        { name = "github", url = "https://github.com/" },
-        { name = "linkedin", url = "https://linkedin.com/in/" },
-        { name = "email", url = "mailto:contact@example.com" }
-      ]
-
     [languages.en.params.profileMode]
       enabled = true
       title = "Tim Mehmeti"
       subtitle = "I build reliable backend systems with .NET — from legacy migrations to clean APIs. Currently looking for new opportunities."
-      imageUrl = "/images/profile.svg"
+      imageUrl = "images/profile.svg"
       imageWidth = 160
       imageHeight = 160
       imageTitle = "Tim Mehmeti"
 
     [[languages.en.params.profileMode.buttons]]
       name = "Work & Experience"
-      url = "/en/projects/"
+      url = "projects/"
 
     [[languages.en.params.profileMode.buttons]]
       name = "About Me"
-      url = "/en/about/"
+      url = "about/"
 
     [[languages.en.menu.main]]
       name = "Home"
-      url = "/en/"
+      url = "/"
       weight = 5
 
     [[languages.en.menu.main]]
       name = "About"
-      url = "/en/about/"
+      url = "about/"
       weight = 10
 
     [[languages.en.menu.main]]
       name = "Work & Experience"
-      url = "/en/projects/"
+      url = "projects/"
       weight = 20
 
     [[languages.en.menu.main]]
       name = "Timeline"
-      url = "/en/timeline/"
+      url = "timeline/"
       weight = 15
 
   [languages.de]
@@ -71,48 +68,46 @@ buildExpired = false
     contentDir = "content/de"
     title = "Tim Mehmeti — Backend Entwickler"
 
-    [languages.de.params]
-      socialIcons = [
-        { name = "github", url = "https://github.com/" },
-        { name = "linkedin", url = "https://linkedin.com/in/" },
-        { name = "email", url = "mailto:contact@example.com" }
-      ]
-
     [languages.de.params.profileMode]
       enabled = true
       title = "Tim Mehmeti"
       subtitle = "Ich entwickle robuste Backend-Systeme mit .NET — von Legacy-Migrationen bis zu sauberen APIs. Aktuell auf der Suche nach neuen Herausforderungen."
-      imageUrl = "/images/profile.svg"
+      imageUrl = "images/profile.svg"
       imageWidth = 160
       imageHeight = 160
       imageTitle = "Tim Mehmeti"
 
     [[languages.de.params.profileMode.buttons]]
       name = "Arbeit & Erfahrung"
-      url = "/de/projects/"
+      url = "projects/"
 
     [[languages.de.params.profileMode.buttons]]
       name = "Über mich"
-      url = "/de/about/"
+      url = "about/"
 
-    [[languages.de.menu.main]]
-      name = "Start"
-      url = "/de/"
-      weight = 5
+    [[languages.en.menu.main]]
+  name = "Home"
+  url = "en/"
+  weight = 5
+
+  [[languages.de.menu.main]]
+  name = "Start"
+  url = "de/"
+  weight = 5
 
     [[languages.de.menu.main]]
       name = "Über mich"
-      url = "/de/about/"
+      url = "about/"
       weight = 10
 
     [[languages.de.menu.main]]
       name = "Arbeit & Erfahrung"
-      url = "/de/projects/"
+      url = "projects/"
       weight = 20
 
     [[languages.de.menu.main]]
       name = "Kurz und Knapp"
-      url = "/de/timeline/"
+      url = "timeline/"
       weight = 15
 
 [params]
@@ -138,18 +133,9 @@ buildExpired = false
   showtoc = true
   tocopen = false
 
-  [params.cover]
-    hidden = false
-    hiddenInList = false
-    hiddenInSingle = false
-
-  [params.assets]
-    disableHLJS = true
-    disableFingerprinting = false
-
   [params.label]
     text = "Tim Mehmeti"
-    icon = "/images/profile.svg"
+    icon = "images/profile.svg"
     iconHeight = 35
 
 [markup]
