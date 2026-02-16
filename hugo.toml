@@ -2,8 +2,6 @@ baseURL = "https://tim0xc0de.github.io/tim-portfolio/"
 title = "Tim Mehmeti"
 theme = "PaperMod"
 
-canonifyURLs = true
-relativeURLs = false
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -48,7 +46,7 @@ buildExpired = false
 
     [[languages.en.menu.main]]
       name = "Home"
-      url = "/"
+      url = ""
       weight = 5
 
     [[languages.en.menu.main]]
@@ -89,15 +87,10 @@ buildExpired = false
       name = "Über mich"
       url = "about/"
 
-    [[languages.en.menu.main]]
-  name = "Home"
-  url = "en/"
-  weight = 5
-
-  [[languages.de.menu.main]]
-  name = "Start"
-  url = "de/"
-  weight = 5
+    [[languages.de.menu.main]]
+      name = "Start"
+      url = ""
+      weight = 5
 
     [[languages.de.menu.main]]
       name = "Über mich"

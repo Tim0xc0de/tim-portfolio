@@ -43,6 +43,10 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true # Falls du SCSS/SASS in deinem Theme nutzt
 
+      - name: Setup Pages
+        id: pagesconfig
+        uses: actions/configure-pages@v4
+
       - name: Build with Hugo
         run: |
           hugo \
