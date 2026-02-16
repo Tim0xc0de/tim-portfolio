@@ -29,7 +29,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.121.0 # Hier kannst du deine Hugo-Version anpassen
+      HUGO_VERSION: 0.146.0 # Hier kannst du deine Hugo-Version anpassen
     steps:
       - name: Checkout
         uses: actions/checkout@v4
