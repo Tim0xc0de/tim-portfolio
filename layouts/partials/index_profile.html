@@ -1,0 +1,56 @@
+<div class="profile">
+    {{- with site.Params.profileMode }}
+    <div class="profile_inner">
+        {{- if .imageUrl -}}
+        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- end }}
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
+
+        <!-- Credentials Badges -->
+        <div class="credentials-badges">
+            <div class="badge education">
+                <span class="badge-icon">🎓</span>
+                <span class="badge-text">{{ if eq site.Language.Lang "de" }}Industrie 4.0 (DQR 6){{ else }}Industry 4.0 (DQR 6){{ end }}</span>
+            </div>
+            <div class="badge training">
+                <span class="badge-icon">💼</span>
+                <span class="badge-text">{{ if eq site.Language.Lang "de" }}Fachinformatiker (IHK){{ else }}IT Specialist (IHK){{ end }}</span>
+            </div>
+            <div class="badge cert">
+                <span class="badge-icon">📜</span>
+                <span class="badge-text">{{ if eq site.Language.Lang "de" }}AdA-Schein{{ else }}AdA Certificate{{ end }}</span>
+            </div>
+            <div class="badge cert">
+                <span class="badge-icon">🏆</span>
+                <span class="badge-text">Archer Admin 1</span>
+            </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="tech-stack">
+            <span class="tech primary">.NET</span>
+            <span class="tech primary">C#</span>
+            <span class="tech">ASP.NET Core</span>
+            <span class="tech">SQL Server</span>
+            <span class="tech">REST APIs</span>
+            <span class="tech">Entity Framework</span>
+            <span class="tech">Azure DevOps</span>
+            <span class="tech">Clean Architecture</span>
+        </div>
+
+        {{- partial "social_icons.html" -}}
+
+        {{- with .buttons }}
+        <div class="buttons">
+            {{- range . }}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+                <span class="button-inner">{{ .name }}</span>
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end}}
+</div>

@@ -1,0 +1,555 @@
+/* Tim's Portfolio - Modern & Professional */
+
+:root {
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --accent-light: rgba(59, 130, 246, 0.1);
+  --text-muted: #64748b;
+  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --radius: 8px;
+}
+
+/* ===== Typography ===== */
+body {
+  letter-spacing: -0.01em;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* ===== Profile - PaperMod Style ===== */
+.profile {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.profile .profile_inner {
+  text-align: center;
+  max-width: 600px;
+}
+
+.profile .profile_inner h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+  color: var(--primary);
+}
+
+.profile .profile_inner > span {
+  display: block;
+  font-size: 1.1rem;
+  color: var(--secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.profile img {
+  display: block !important;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1.5rem;
+  border: 3px solid var(--border);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.profile img:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Credentials Badges */
+.credentials-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  transition: var(--transition);
+}
+
+.badge:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.badge.education {
+  border-color: var(--accent);
+  background: var(--accent-light);
+}
+
+.badge.training {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.badge.cert {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.badge-icon {
+  font-size: 0.9rem;
+}
+
+.badge-text {
+  font-weight: 500;
+  color: var(--primary);
+}
+
+/* Tech Stack */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech {
+  padding: 0.3rem 0.6rem;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--secondary);
+  transition: var(--transition);
+}
+
+.tech:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.tech.primary {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Buttons - PaperMod Style */
+.profile .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.profile .button {
+  background: transparent;
+  border: 2px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 0.6rem 1.25rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: var(--transition);
+}
+
+.profile .button:hover {
+  background: var(--primary);
+  color: var(--theme);
+  transform: translateY(-2px);
+}
+
+.profile .button:first-of-type {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile {
+    min-height: auto;
+    padding: 1.5rem 0;
+  }
+  
+  .profile .profile_inner h1 {
+    font-size: 2rem;
+  }
+  
+  .profile img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .credentials-badges {
+    gap: 0.4rem;
+  }
+  
+  .badge {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* ===== Social Icons - Modern ===== */
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.social-icons a {
+  opacity: 0.6;
+  transition: var(--transition);
+  padding: 0.5rem;
+  border-radius: var(--radius);
+}
+
+.social-icons a:hover {
+  opacity: 1;
+  color: var(--accent);
+  background: var(--accent-light);
+  transform: translateY(-2px);
+}
+
+/* ===== Navigation - Modern ===== */
+.nav {
+  padding: 1.5rem 0;
+  backdrop-filter: blur(8px);
+}
+
+#menu a {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: var(--transition);
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border-radius: var(--radius);
+}
+
+#menu a:hover {
+  color: var(--accent);
+  background: var(--accent-light);
+}
+
+#menu .active {
+  color: var(--accent);
+  background: var(--accent-light);
+}
+
+/* ===== Posts & Cards - Modern ===== */
+.post-entry {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  transition: var(--transition);
+  background: var(--entry);
+  display: block;
+  width: 100%;
+}
+
+.post-entry:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.post-entry .entry-header {
+  margin-bottom: 1.25rem;
+}
+
+.post-entry .entry-header h2 {
+  font-weight: 600;
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+/* Timeline & Category in Preview Cards */
+.post-entry .entry-header .post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.post-entry .entry-header .post-meta span {
+  display: inline-block;
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.post-entry .entry-content {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+/* Hide Timeline/Category from entry-content if it appears there */
+.post-entry .entry-content strong:first-child {
+  display: none;
+}
+
+.post-entry .entry-footer {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  opacity: 0.7;
+  font-size: 0.875rem;
+}
+
+/* ===== Timeline & Category Badges ===== */
+.post-content > p:first-of-type strong {
+  display: inline-block;
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-content > p:first-of-type {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+/* ===== Article Content ===== */
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+.post-content h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.02em;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--accent-light);
+}
+
+.post-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+/* Lists - Better spacing */
+.post-content ul,
+.post-content ol {
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.post-content li {
+  margin-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+.post-content li strong {
+  color: var(--primary);
+}
+
+/* Paragraphs */
+.post-content p {
+  margin-bottom: 1.25rem;
+}
+
+/* Blockquotes - Modern */
+.post-content blockquote {
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: var(--text-muted);
+  background: var(--accent-light);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Tables - Modern */
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.post-content table th {
+  text-align: left;
+  font-weight: 600;
+  background: var(--accent-light);
+  padding: 1rem;
+}
+
+.post-content table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-content table tr:hover {
+  background: var(--accent-light);
+}
+
+/* Code - Modern */
+.post-content code:not([class*="language-"]) {
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+/* ===== Tags - Modern ===== */
+.post-tags {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post-tags a {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.35rem 0.75rem;
+  background: var(--accent-light);
+  border-radius: 20px;
+  transition: var(--transition);
+}
+
+.post-tags a:hover {
+  background: var(--accent);
+  color: white;
+}
+
+/* ===== Horizontal Rules ===== */
+.post-content hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  margin: 3rem 0;
+}
+
+/* ===== Footer - Modern ===== */
+.footer {
+  opacity: 0.5;
+  font-size: 0.85rem;
+  padding: 2rem 0;
+}
+
+/* ===== Scroll to Top ===== */
+#top-link {
+  border-radius: var(--radius);
+  opacity: 0.4;
+  transition: var(--transition);
+}
+
+#top-link:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+/* ===== Hide TOC for cleaner look ===== */
+.toc {
+  display: none;
+}
+
+/* ===== Selection ===== */
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+/* ===== Smooth Scroll ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== Breadcrumbs - Modern ===== */
+.breadcrumbs {
+  opacity: 0.6;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.breadcrumbs a {
+  transition: var(--transition);
+}
+
+.breadcrumbs a:hover {
+  color: var(--accent);
+}
+
+/* ===== Page Header ===== */
+.post-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.post-description {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+/* ===== Tech Stack Styling ===== */
+.post-content p:last-of-type {
+  font-size: 0.95rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .profile .profile_inner h1 {
+    font-size: 2.75rem;
+  }
+  
+  .profile {
+    min-height: 70vh;
+    padding: 2rem 0;
+  }
+  
+  .post-header h1 {
+    font-size: 2rem;
+  }
+  
+  .post-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ===== Dark Mode Adjustments ===== */
+.dark {
+  --accent-light: rgba(59, 130, 246, 0.15);
+}
