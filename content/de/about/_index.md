@@ -1,105 +1,70 @@
 ---
 title: "Über mich"
 description: "Backend Entwickler - .NET, APIs, Modernisierung"
+date: 2026-02-18
 ---
 
-Ich bin ein Software-Entwickler mit Fokus auf Backend-Entwicklung, Systemarchitektur und moderne Web-Technologien. Ich baue gerne strukturierte, skalierbare Systeme und erkunde, wie Software mit realen Automatisierungs- und intelligenten Systemen verbunden werden kann.
 
-Meine Arbeit reicht von Enterprise-Backend-Services bis zu experimentellen KI-gesteuerten Anwendungen und industriellen Automatisierungsprojekten.
+**Backend Entwickler | .NET Spezialist | Staatlich geprüfter Techniker i.A.**
 
-## Technischer Hintergrund
+Ich bin Software-Entwickler mit einer Leidenschaft für strukturierte, skalierbare Backend-Systeme und moderne Web-Technologien. Mein Fokus liegt darauf, komplexe Geschäftslogik in sauberen Code zu übersetzen und die Brücke zwischen klassischer Softwareentwicklung und intelligenten, automatisierten Systemen zu schlagen.
 
-**.NET Entwicklung**
+Meine Expertise reicht von Enterprise-Backend-Services im .NET-Ökosystem bis hin zu Projekten in den Bereichen KI-Integration und industrielle Automatisierung.
 
-Mein Hauptfokus liegt auf moderner .NET Backend-Entwicklung, einschließlich:
+---
 
-- Microservice-Architektur-Design
-- REST API-Entwicklung (JSON / OpenAPI / YAML)
-- Entity Framework & Datenbankmodellierung
-- Modulares System-Design und MVC-Architektur
-- Background-Job-Systeme mit Hangfire
-- Logging und Monitoring mit NLog
-- Migration und Modernisierung von Legacy-Systemen auf .NET 9
-- Integration mehrerer Utilities in einheitliche Services
+## 🛠 Technischer Fokus
 
-Ich habe an der Konsolidierung von über 30 unabhängigen Backend-Utilities in eine zentralisierte Microservice-Architektur mit automatisierter Job-Planung und datenbankbasiertem Monitoring gearbeitet.
+### .NET Entwicklung & Architektur
+Im Zentrum meiner täglichen Arbeit steht die moderne **.NET Backend-Entwicklung**. Ich begleite Systeme über ihren gesamten Lebenszyklus – von der Konzeption bis zur produktiven Wartung:
 
-## Persönliche Projekte
+* **Architektur:** Design von Microservices und modularen Systemlandschaften (MVC).
+* **API-Design:** Entwicklung robuster REST APIs (OpenAPI / YAML).
+* **Modernisierung:** Migration von Legacy-Systemen auf **.NET 9**.
+* **Automatisierung:** Implementierung von Background-Job-Systemen mit **Hangfire**.
+* **Daten & Monitoring:** Entity Framework Core, SQL-Modellierung sowie Logging mit **NLog**.
 
-**HandwerkerAI**
+Ein Schwerpunkt meiner Erfahrung liegt in der **Konsolidierung zahlreicher unabhängiger Backend-Utilities** in eine zentralisierte, wartbare Microservice-Architektur mit automatisiertem Monitoring.
 
-Eine private experimentelle KI-Plattform für Handwerksbetriebe, gebaut mit Next.js und TypeScript.
+---
 
-Features umfassen:
+## 🚀 Projekte & Innovation
 
-- Angebots- und Rechnungsgenerierung
-- Kundendatenbank-Management
-- Authentifizierungssystem
-- KI-gestützte E-Mail-Antworten (mit Claude)
-- Modulare Frontend-Architektur
-- API-getriebene Backend-Struktur
+### HandwerkerAI (Privates Fullstack-Projekt)
+Eine experimentelle KI-gestützte Business-Plattform für Handwerksbetriebe, entwickelt mit **Next.js und TypeScript** als private Spielwiese zur Erkundung moderner Technologien.
+* **KI-Integration:** Automatisierte Angebots- und Antwortgenerierung via Claude API.
+* **Architektur:** Fokus auf modulares Frontend-Design und eine API-getriebene Backend-Struktur.
+* **Zweck:** Experimentelles Projekt zum Erkunden von KI-Integration, Systemarchitektur und Produktdesign.
 
-Das Projekt diente als Spielwiese für die Erkundung von KI-Integration, Systemarchitektur und Produktdesign.
+### Robotik & Computer Vision
+Im Rahmen meiner staatlichen Techniker-Ausbildung entwickle ich ein System zur automatisierten Qualitätsinspektion:
+* **Stack:** Python, FastAPI, OpenCV und SQLite.
+* **Hardware:** Integration industrieller Robotik zur kamerabasierten Analyse und automatisierten Sortierung von Komponenten via REST-Schnittstellen.
 
-**Robotik & Computer Vision Projekt**
+---
 
-Als Teil meiner beruflichen Weiterbildung in Industrie 4.0 und Digitalisierung entwickle ich ein automatisiertes Qualitätsinspektionssystem mit:
+## 🎓 Qualifikation & Ausbildung
 
-- Python & FastAPI
-- OpenCV Computer Vision
-- REST APIs
-- Industrielle Robotik
-- SQLite Datenlogging
+### Staatlich geprüfter Techniker (Digitalisierung / Industrie 4.0)
+Ich befinde mich derzeit im Endspurt meiner staatlichen Weiterbildung auf **DQR 6 Niveau** (Bachelor-Niveau). Diese Ausbildung verbindet tiefgehendes Software-Engineering mit technischer Systemintegration:
+* Python-Programmierung & KI-Grundlagen.
+* Industrielle Kommunikation (MQTT, TCP/IP) & Cybersecurity.
+* SPS-Programmierung, Sensorik und Mikrocontroller-Technik.
 
-Das System nutzt einen Roboterarm zur Inspektion hergestellter Komponenten mittels kamerabasierter Analyse und automatisierter Sortierung.
+### Zertifizierungen & Abschlüsse
+* **Fachinformatiker für Anwendungsentwicklung** (IHK, 2020 – 2023).
+* **Archer Admin 1** (Zertifizierter Plattform-Administrator).
+* **AdA-Schein** (Ausbilder-Eignungsverordnung, 2024).
 
-## Ausbildung
+---
 
-Ich absolviere derzeit eine fortgeschrittene berufliche Weiterbildung in Digitalisierung und Industrie 4.0 auf DQR 6 Niveau (vergleichbar mit Bachelor).
+## 💼 Berufliche Erfahrung
+In meinem Berufsalltag unterstütze ich die Administration und Integration von **Enterprise-Plattformen (Archer)**. Mein Fokus liegt auf der operativen Zuverlässigkeit, Datensynchronisation und der kontinuierlichen Modernisierung der Backend-Infrastruktur auf Basis von .NET.
 
-Meine Studieninhalte umfassen:
+---
 
-- Python-Programmierung
-- Sensortechnik
-- SPS-Programmierung
-- Mikrocontroller
-- Robotik und Automatisierung
-- MQTT-Kommunikation
-- Netzwerk-Grundlagen
-- Cybersecurity-Grundlagen
-- KI-Grundlagen
+## 🎯 Ziele & Interessen
 
-Mein Abschlussprojekt konzentriert sich auf automatisierte robotergestützte Qualitätsinspektion mittels Computer Vision und API-getriebener Systemarchitektur.
+Mein Ziel ist es, als Software-Engineer Systeme zu entwerfen, die nicht nur Code sind, sondern reale Prozesse intelligent automatisieren. Ich interessiere mich besonders für die Schnittstelle zwischen **Backend-Architektur, KI-gesteuerten Anwendungen und physischen Systemen**.
 
-## Zertifizierungen
-
-**Fachinformatiker Anwendungsentwicklung** (2020 - 2023)  
-Abgeschlossene Berufsausbildung in Softwareentwicklung
-
-**AdA-Schein** (2024)  
-Ausbildung der Ausbilder
-
-**Archer Admin 1** (2024)  
-Offizielle Archer-Administrations-Zertifizierung
-
-## Berufliche Erfahrung
-
-In meiner beruflichen Arbeit unterstütze ich Enterprise-Systemadministration und Integrationen mit Archer, mit Fokus auf Anwendungswartung, Datensynchronisation und operative Zuverlässigkeit.
-
-Ich arbeite auch an .NET Backend-Modernisierung, migriere Legacy-Systeme und baue skalierbare Microservice-Architekturen.
-
-## Privat
-
-Außerhalb der Arbeit erkunde ich gerne aufkommende Technologien wie KI, VR und moderne Software-Architekturen. Ich experimentiere gerne mit neuen Frameworks, baue Nebenprojekte und erweitere kontinuierlich meine technischen Fähigkeiten.
-
-Ich werde von Neugier und dem Wunsch angetrieben zu verstehen, wie komplexe Systeme funktionieren — von Backend-Services über Robotik bis hin zu intelligenter Automatisierung.
-
-## Ziele
-
-Mein langfristiges Ziel ist es, zu einem hochqualifizierten Software-Engineer zu werden, der robuste Systeme entwerfen und bauen kann, die Software, Automatisierung und intelligente Technologien verbinden.
-
-Ich interessiere mich besonders für Backend-Architektur, KI-gesteuerte Anwendungen und die Schnittstelle zwischen Software-Engineering und realen Systemen.
-
-## Kontakt
-
-[E-Mail](mailto:contact@example.com) · [LinkedIn](https://linkedin.com/in/) · [GitHub](https://github.com/)
+Abseits der Tastatur finde ich meinen Ausgleich beim **Sport im Gym** oder bei einem guten Film im **Kino**. Diese Balance hilft mir, mit frischem Fokus an komplexe technische Herausforderungen heranzugehen.

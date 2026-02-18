@@ -1,50 +1,42 @@
 ---
-title: ".NET Migration"
-date: 2025-01-01
-description: "Legacy .NET Framework → modernes .NET"
-tags: ["dotnet", "migration"]
+title: "Modernisierung: .NET Framework Migration auf .NET 9"
+date: 2026-02-18
+tags: ["dotnet", "migration", "backend", "modernization"]
+description: "Erfolgreiche Migration von Utilities auf das modernste .NET Framework."
 weight: 1
 ---
 
-**Zeitraum:** 2025 · **Kategorie:** 💼 Beruflich
+**Zeitraum:** 2024/2025 · **Kategorie:** 💼 Beruflich
 
-Im Laufe des Jahres 2025 migrierte ich mehrere Utility-Anwendungen von **.NET Framework 4.x** auf **.NET 9** mit stabilen Rollouts über DEV, QA und PROD Umgebungen.
-
-Dies war eine kritische Modernisierungsmaßnahme, die zentrale Business-Utilities betraf, die jahrelang auf Legacy-Frameworks liefen.
+Im Laufe des Jahres 2024/2025 habe ich mehrere zentrale Utility-Anwendungen von .NET Framework 4.x auf .NET 9 migriert. Diese Modernisierung war ein kritischer Schritt, um jahrelang gewachsene Legacy-Systeme auf den aktuellen Stand der Technik zu bringen und für kommende Versionen wie .NET 10 vorzubereiten.
 
 ## Die Ausgangslage
+Die betroffenen Anwendungen liefen seit Jahren stabil auf dem .NET Framework 4.x. Allerdings wurde die Wartung zunehmend komplexer:
+* **Veraltete Bibliotheken:** Viele Abhängigkeiten erhielten keine Updates mehr.
+* **Security:** Schwierigkeiten beim Einbinden aktueller Sicherheits-Patches.
+* **Technik-Gap:** Das Team wollte die Vorteile von modernem C# und den neuen .NET-Features nutzen.
 
-Mehrere interne Utility-Anwendungen liefen seit Jahren auf .NET Framework 4.x. Sie funktionierten, aber die Wartung wurde zunehmend aufwändig — veraltete Dependencies, Sicherheitsbedenken, und das Wissen, dass Microsofts Fokus längst auf modernem .NET lag.
-
-Die Herausforderung: migrieren ohne etwas kaputt zu machen, während die Anwendungen in Production weiterlaufen.
+Die Herausforderung war ein reibungsloser Übergang während des laufenden Betriebs.
 
 ## Was ich gemacht habe
 
-**Analyse & Planung**
-- Audit aller Dependencies und Identifikation von Migrations-Blockern
-- Kompatibilitätsmatrix für Third-Party-Libraries erstellt
-- Phasenweisen Rollout geplant um Risiken zu minimieren
+### Analyse & Planung
+* **Dependency-Check:** Prüfung aller NuGet-Pakete auf Kompatibilität mit .NET 9.
+* **Risiko-Minimierung:** Erstellung eines Migrationsplans, um die Auswirkungen auf die Produktion so gering wie möglich zu halten.
 
-**Technische Umsetzung**
-- Projekte auf SDK-Style Format umgestellt
-- Veraltete APIs durch moderne Äquivalente ersetzt
-- NuGet-Pakete aktualisiert und Versionskonflikte gelöst
-- Saubere Dependency Injection Patterns implementiert
-- Konfiguration modernisiert (appsettings.json, Options Pattern)
+### Technische Umsetzung
+* **Projekt-Modernisierung:** Umstellung auf das neue SDK-Style Format.
+* **Code-Anpassung:** Ersetzen veralteter APIs durch moderne Äquivalente und Auflösen von Versionskonflikten.
+* **Architektur-Upgrade:** Implementierung von Dependency Injection und dem modernen Options Pattern (appsettings.json), um den Code sauberer und wartbarer zu machen.
 
-**Rollout & Validierung**
-- Gestaffeltes Deployment: DEV → QA → PROD
-- Umfassende Regressionstests in jeder Phase
-- Performance-Benchmarking um Regressionen zu erkennen
-- Alle Änderungen für zukünftige Wartung dokumentiert
+### Rollout & Qualitätssicherung
+* **Stufenweises Deployment:** Durchführung stabiler Rollouts über die Umgebungen DEV → QA → PROD.
+* **Validierung:** Durchführung von Regressionstests in jeder Phase, um sicherzustellen, dass die bestehende Business-Logik weiterhin fehlerfrei funktioniert.
 
 ## Ergebnisse
-
-- **40% schnellere Build-Zeiten** — SDK-Style Projekte und verbessertes Tooling
-- **Vereinfachte Deployments** — Single-File Publishing, sauberere CI/CD
-- **Zukunftssicher** — bereit für .NET 8, 9 und darüber hinaus
-- **Bessere Wartbarkeit** — moderne Patterns, sauberere Code-Struktur
+* **🚀 Höhere Performance:** Deutlich schnellere Build-Zeiten und optimierte Laufzeit-Leistung.
+* **🛠️ Bessere Wartbarkeit:** Durch moderne Patterns ist der Code deutlich einfacher zu lesen und zu erweitern.
+* **🔮 Ready for .NET 10:** Die Anwendungen sind nun so strukturiert, dass zukünftige Updates auf .NET 10 mit minimalem Aufwand möglich sind.
 
 ## Tech Stack
-
-C# · .NET 6/8 · ASP.NET Core · MSBuild · NuGet · Azure DevOps · Git
+C# · .NET 9 · ASP.NET Core · SQL Server · Azure DevOps · Git

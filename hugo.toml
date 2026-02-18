@@ -30,7 +30,7 @@ buildExpired = false
     [languages.en.params.profileMode]
       enabled = true
       title = "Tim Mehmeti"
-      subtitle = "I build reliable backend systems with .NET — from legacy migrations to clean APIs. Currently looking for new opportunities."
+      subtitle = "Backend developer focused on .NET. I modernize legacy systems, build clean APIs, and connect software with intelligent automation. Currently ready for new projects."
       imageUrl = "images/profile.svg"
       imageWidth = 160
       imageHeight = 160
@@ -73,7 +73,7 @@ buildExpired = false
     [languages.de.params.profileMode]
       enabled = true
       title = "Tim Mehmeti"
-      subtitle = "Ich entwickle robuste Backend-Systeme mit .NET — von Legacy-Migrationen bis zu sauberen APIs. Aktuell auf der Suche nach neuen Herausforderungen."
+      subtitle = "Backend Entwickler mit Fokus auf .NET. Ich modernisiere Legacy-Systeme, baue saubere APIs und verbinde Software mit intelligenter Automatisierung. Aktuell bereit für neue Projekte."
       imageUrl = "images/profile.svg"
       imageWidth = 160
       imageHeight = 160

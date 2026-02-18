@@ -1,138 +1,66 @@
 ---
 title: ".NET Backend Engineering & Systemmodernisierung"
-date: 2023-01-01
-description: "Wartung, Modernisierung und Verbesserung von .NET Produktionssystemen"
-tags: ["dotnet", "backend", "modernisierung", "aspnetcore", "hangfire"]
+date: 2026-02-18
+tags: ["backend", "dotnet", "architecture", "automation"]
+description: "Langfristige Wartung, Konsolidierung und Modernisierung produktiver .NET-Systemlandschaften."
 weight: 3
 ---
 
 **Zeitraum:** 2023 - Heute · **Kategorie:** 💼 Beruflich
 
-Seit 2023 ist ein Schwerpunkt meiner Arbeit die Wartung, Modernisierung und Verbesserung bestehender .NET Backend-Systeme in Produktionsumgebungen.
+Seit 2023 liegt ein zentraler Schwerpunkt meiner Arbeit auf der Wartung, Modernisierung und kontinuierlichen Verbesserung bestehender .NET-Backendsysteme in kritischen Produktionsumgebungen. Dieser Bereich repräsentiert den Kern meiner Erfahrung in der Softwareentwicklung: Die Transformation gewachsener Legacy-Strukturen in moderne, modulare Architekturen.
 
-Diese fortlaufende Arbeit repräsentiert den Kern meiner beruflichen Erfahrung in der Backend-Entwicklung.
+## Kernaufgaben & Fokus
+Meine Arbeit umfasst den gesamten Lebenszyklus der Systempflege – von der Fehlerbehebung im laufenden Betrieb bis hin zur strategischen Neuausrichtung der Architektur:
+* **Versions-Upgrades:** Migration von Anwendungen auf moderne Frameworks (bis .NET 9).
+* **Refactoring:** Transformation monolithischer Legacy-Utilities in wartbare Backend-Services.
+* **Konsolidierung:** Zusammenführung isolierter Standalone-Tools in zentralisierte Dienste.
+* **Observability:** Implementierung von erweitertem Logging und Monitoring zur Fehlerdiagnose.
+* **Automatisierung:** Reduktion manueller Prozesse durch intelligente Hintergrund-Workflows.
 
-Dies umfasst das Upgraden von Legacy-Anwendungen, das Konsolidieren von Services, die Verbesserung der Wartbarkeit und die Automatisierung wiederkehrender Backend-Prozesse.
+---
 
-Die Arbeit erstreckt sich über API-Entwicklung, Datenbank-Refactoring, Job-Automatisierung, Monitoring und Systemmodernisierung bei kontinuierlicher Verbesserung der Code-Struktur und Modularität.
+## Modulare Architektur & Code-Qualität
+Ein wesentlicher Teil der Modernisierung war der Übergang zu sauberen Architekturmustern. Um Systeme erweiterbar zu machen, habe ich folgende Prinzipien etabliert:
 
-## Kernaufgaben
+* **Separation of Concerns:** Konsequente Trennung von Anwendungsschichten.
+* **Dependency Injection (DI):** Vollständige Entkopplung der Services über alle Ebenen hinweg.
+* **Service-Abstraktion:** Einführung wiederverwendbarer Komponenten statt eng gekoppelter Logik.
+* **MVC & Repository Patterns:** Migration in Richtung strukturierter Datenzugriffs- und Verarbeitungsstrukturen, um Seiteneffekte zu minimieren.
 
-- Upgrade von Anwendungen auf moderne .NET-Versionen
-- Refactoring von Legacy-Utilities und Backend-Services
-- Konsolidierung von Standalone-Tools in zentralisierte Services
-- Verbesserung von Deployment- und Wartungs-Workflows
-- Automatisierung wiederkehrender Backend-Aufgaben
-- Verbesserung von Logging und System-Observability
-- Erhöhung der Modularität und Wartbarkeit von Codebasen
-
-## Modulare Architektur & Code-Struktur
-
-Ein starker Fokus während der Modernisierungsarbeit lag auf der Verbesserung von Code-Struktur und Modularität, um Systeme einfacher wartbar und erweiterbar zu machen.
-
-**Wichtige Verbesserungen:**
-- Separation of Concerns über Anwendungsschichten hinweg
-- Modulare Service- und Datenzugriffskomponenten
-- Dependency Injection über alle Services
-- Wiederverwendbare Service-Abstraktionen
-- Reduktion eng gekoppelter Komponenten
-- Einfachere Feature-Erweiterungen und Testmöglichkeiten
-
-Viele Utilities wurden refactored, um strukturierten Backend-Patterns statt monolithischer Logik zu folgen.
-
-## MVC & Backend Design Patterns
-
-Mehrere Anwendungen folgten oder wurden in Richtung MVC und strukturierter Backend-Patterns migriert.
-
-**Arbeit umfasste:**
-- Controller-basierte Request-Verarbeitung
-- Trennung von Business-Logik in Services
-- Repository- oder Datenzugriffs-Abstraktionsschichten
-- Saubere Trennung zwischen UI, Logik und Datenschichten
-- Verbesserte Routing- und API-Endpoint-Struktur
-
-Diese Änderungen verbesserten die Wartbarkeit und reduzierten Seiteneffekte zwischen Anwendungskomponenten.
+---
 
 ## Utility-Konsolidierung & Job-Automatisierung
+Eine der größten Herausforderungen war das Management zahlreicher Standalone-Utilities, die zuvor unabhängig und intransparent liefen.
 
-Eine große Aufgabe beinhaltete die Handhabung von mehr als 30 Standalone-Utilities, die zuvor unabhängig liefen.
+### Die Lösung: Zentralisierter Backend-Service
+Um die Wartbarkeit und das Monitoring massiv zu verbessern, wurden diese Tools in einen zentralen Microservice überführt:
+* **Zentralisierte Ausführung:** Bündelung aller Logik in einem stabilen Dienst.
+* **Hangfire Integration:** Implementierung einer robusten Hintergrund-Verarbeitung für geplante Tasks.
+* **Job-Monitoring:** Einführung von datenbankbasiertem Logging, Error-Tracking und automatisierten Retry-Strategien.
+* **Ergebnis:** Volle Transparenz über alle Hintergrundprozesse und signifikante Reduktion des manuellen Wartungsaufwands.
 
-Um Wartbarkeit und Monitoring zu verbessern, wurden diese Utilities in einen zentralisierten Backend-Service konsolidiert.
+---
 
-**Implementierungs-Highlights:**
-- Erstellung eines zentralisierten Microservices
-- Job-Ausführung via Hangfire
-- Vereinheitlichung von geplanten und Hintergrund-Tasks
-- Datenbank-Logging für Job-Monitoring hinzugefügt
-- Fehler-Tracking und Retry-Handling
-- Entfernung manueller Ausführungsprozesse
+## Technologie & Stack
+Mein technischer Fokus liegt auf der effizienten Nutzung des modernen .NET-Ökosystems:
 
-Dies verbesserte Transparenz und Wartung erheblich.
+* **Frameworks:** .NET 9, ASP.NET Core, Entity Framework Core.
+* **APIs:** RESTful Design, JSON-Kommunikation, OpenAPI/Swagger-Dokumentation.
+* **Automatisierung:** Hangfire für Background-Processing und komplexe Workflows.
+* **Datenbank:** SQL Server (Query-Optimierung, Refactoring, Schema-Modernisierung).
+* **Monitoring:** Zentralisiertes Logging mit NLog und Analyse von Laufzeitverhalten.
 
-## Technologie & Stack-Erfahrung
+---
 
-**Backend-Entwicklung**
-- C# und modernes .NET-Ökosystem
-- ASP.NET Core Anwendungen
-- REST API Design und Implementierung
-- JSON-basierte API-Kommunikation
-- YAML/OpenAPI API-Dokumentation
-
-**Datenbank & Datenzugriff**
-- Entity Framework & EF Core
-- Datenbank-Migrationen und Schema-Anpassungen
-- Query-Optimierung und Refactoring
-- Datenstruktur-Modernisierung
-
-**Job-Verarbeitung & Automatisierung**
-- Hangfire Background-Job-Verarbeitung
-- Geplante Tasks
-- Automatisierte wiederkehrende Workflows
-- Job-Retry- und Monitoring-Strategien
-
-**Logging & Monitoring**
-- Zentralisiertes Logging mit NLog
-- Datenbankbasiertes Job-Logging
-- Fehler-Monitoring und Diagnose
-- Laufzeitverhalten-Analyse
-
-**Modernisierung & Refactoring**
-- Migration von Anwendungen auf neuere .NET-Versionen
-- Dependency-Cleanup und Modernisierung
-- Refactoring von Legacy-Code-Strukturen
-- Verbesserung der Wartbarkeit von Utilities
-- Entfernung obsoleter Komponenten
-
-## Entwicklungsimpact
-
-Die Modernisierungs- und Konsolidierungsarbeit resultierte in:
-
-- Reduzierter operativer Komplexität
-- Verbesserter Zuverlässigkeit von Hintergrundprozessen
-- Einfacherem Monitoring von System-Jobs
-- Vereinfachten Deployment-Workflows
-- Reduziertem Wartungsaufwand
-- Besser strukturierten und erweiterbaren Systemen
-
-## Learnings
-
-- Pragmatischer Umgang mit Legacy-Systemen
-- Inkrementelle Modernisierung von Produktionssoftware
-- Design wartbarer Backend-Services
-- Strukturierung von Background-Job-Verarbeitung
-- Verbesserung operativer Sichtbarkeit
-- Anwendung modularer Architekturprinzipien in bestehenden Systemen
+## Impact & Ergebnisse
+Die gezielte Modernisierungsarbeit führte zu messbaren Verbesserungen in der Systemlandschaft:
+1. **Reduzierte Komplexität:** Weniger Fehlerquellen durch Konsolidierung.
+2. **Höhere Zuverlässigkeit:** Stabile Hintergrundprozesse durch professionelles Job-Handling.
+3. **Schnellere Deployments:** Vereinfachte CI/CD-Workflows durch modernisierte Projektstrukturen.
+4. **Zukunftssicherheit:** Eine Codebasis, die bereit für .NET 10 und kommende Anforderungen ist.
 
 ## Aktuelle Richtung
+Ich verfolge weiterhin das Ziel, Backend-Strukturen noch modularer zu gestalten und repetitive Aufgaben durch intelligente Automatisierung zu eliminieren. Der Fokus liegt dabei stets auf einem pragmatischen, aber nachhaltigen Umgang mit bestehender Produktionssoftware.
 
-Laufende Fokusgebiete umfassen:
-
-- Weitere Backend-Modernisierung
-- Automatisierung wiederkehrender Prozesse
-- API-Verbesserungen und Wartbarkeit
-- Skalierbare Backend-Architektur-Patterns
-- Kontinuierliche Verbesserung modularer Backend-Strukturen
-
-## Tech Stack
-
-C# · .NET 6/8 · ASP.NET Core · Entity Framework Core · Hangfire · NLog · SQL Server · REST APIs · Azure DevOps
+**Tech Stack:** C# · .NET 6/8/9 · ASP.NET Core · Entity Framework Core · Hangfire · NLog · SQL Server · REST APIs · Azure DevOps

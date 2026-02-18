@@ -1,112 +1,55 @@
 ---
-title: "Kurz und Knapp"
-description: "Schneller Überblick über meinen beruflichen Werdegang"
+title: "Kurz & Knapp"
+description: "Beruflicher Werdegang und technischer Fokus"
+date: 2026-02-18
+showToc: false
 ---
 
-## Beruflicher Werdegang
+## 🚀 Beruflicher Werdegang
 
-### 2025 · .NET Migration & Archer Administration
+### 2023 – Heute | Backend Engineering & Enterprise Systems
+**Software-Entwickler / Backend-Spezialist**
+* **Legacy-Modernisierung:** Verantwortung für die strategische Migration geschäftskritischer .NET Framework-Anwendungen auf **.NET 9**.
+* **Architektur & Refactoring:** Konsolidierung von mehreren Backend-Utilities in eine skalierbare **Microservice-Architektur** unter Anwendung von **Clean Architecture**.
+* **Enterprise-Plattform:** Administration und Integration der Archer GRC-Plattform (Zertifizierter Archer Admin 1).
+* **Automatisierung:** Entwicklung robuster REST-APIs und Implementierung von Background-Workflows mit **Hangfire**.
+* **Data Engineering:** Optimierung komplexer SQL-Server-Umgebungen und Wartung von Enterprise-Datafeeds.
+* **Tech Stack:** C#, .NET 9, ASP.NET Core, EF Core, Archer, SQL Server, Hangfire.
 
-**Backend Entwickler**
+### 2023 – 2026 | Staatlich geprüfter Techniker
+**Fachrichtung Digitalisierung / Industrie 4.0 (DQR 6 / Bachelor-Niveau)**
+*Voraussichtlicher Abschluss: Juni 2026*
+* **Schwerpunkt:** Software-Engineering im Kontext industrieller Automatisierungssysteme.
+* **Innovationsprojekt:** Entwicklung eines automatisierten Qualitätskontrollsystems mittels Computer Vision (**OpenCV**) und **FastAPI**.
+* **Systemintegration:** Vernetzung technischer Systeme via MQTT und TCP/IP sowie Robotik-Programmierung.
 
-- Migration von Legacy .NET Framework Anwendungen auf .NET 9
-- Enterprise GRC Plattform Administration (Archer)
-- Systemintegration und Datafeed-Wartung
-- Produktionsumgebungs-Support
-- **Zertifizierung:** Archer Admin 1
-
-**Haupttechnologien:** .NET 9, ASP.NET Core, Archer, SQL Server, REST APIs
-
----
-
-### 2023 - Heute · Backend Engineering
-
-**Software-Entwickler**
-
-- Wartung und Modernisierung produktiver .NET-Systeme
-- Konsolidierung von 30+ Backend-Utilities in Microservice-Architektur
-- REST API-Entwicklung mit Clean Architecture
-- Background-Job-Automatisierung mit Hangfire
-- Datenbank-Optimierung und Refactoring
-
-**Haupttechnologien:** C#, .NET 6/8/9, Entity Framework Core, Hangfire, NLog, SQL Server
+### 2020 – 2023 | Berufsausbildung
+**Fachinformatiker für Anwendungsentwicklung**
+* **Abschluss:** IHK-Zeugnis (Juli 2023).
+* **Fokus:** Fundierte Ausbildung in der Softwareentwicklung, objektorientierte Programmierung und Datenbankdesign.
 
 ---
 
-### 2023 - 2026 · Berufliche Weiterbildung
+## 🛠 Kernkompetenzen & Tech Stack
 
-**Industrie 4.0 & Automatisierungssysteme (DQR 6 / Bachelor-Niveau)**
+### Backend & Architektur
+* **.NET Ökosystem:** Expertisen von Legacy Frameworks bis hin zu modernem .NET 9.
+* **Architekturmuster:** Clean Architecture, Microservices, RESTful API Design.
+* **Datenmanagement:** SQL Server Optimierung, Entity Framework Core, Systemintegrationen.
 
-Fortgeschrittene Weiterbildung mit Schwerpunkten:
-- Software-Engineering und Systemarchitektur
-- Python-Programmierung und Automatisierung
-- Robotik und SPS-Programmierung
-- Industrielle Netzwerktechnik (MQTT, TCP/IP)
-- Computer Vision und KI-Grundlagen
-
-**Abschlussprojekt:** Automatisiertes Roboter-Qualitätskontrollsystem mit FastAPI, OpenCV und REST-Architektur
-
----
-
-### 2026 · Persönliche Projekte
-
-**HandwerkerAI** — KI-gestützte Business-Plattform
-
-Fullstack-Prototyp zur Erkundung von KI-Integration für kleine Betriebe:
-- Next.js, TypeScript, Claude KI-Integration
-- Kundenverwaltung und Angebotsgenerierung
-- Modulare Architektur und API-Design
+### Tech Stack Matrix
+| Bereich | Technologien |
+| :--- | :--- |
+| **Sprachen** | C#, TypeScript, Python, SQL |
+| **Frameworks** | .NET 9, ASP.NET Core, FastAPI, Next.js |
+| **Datenbanken** | SQL Server, PostgreSQL, SQLite |
+| **Tools** | EF Core, Hangfire, OpenCV, Git |
 
 ---
 
-## Ausbildung & Zertifizierungen
+## 🎓 Abschlüsse & Zertifikate
 
-**Berufliche Weiterbildung Industrie 4.0** (Aug 2023 - Juni 2026)  
-Vergleichbar mit Bachelor-Niveau (DQR 6)
-
-**Fachinformatiker Anwendungsentwicklung** (2020 - 2023)  
-Abgeschlossene Berufsausbildung in Softwareentwicklung
-
-**AdA-Schein** (2024)  
-Ausbildung der Ausbilder
-
-**Archer Admin 1** (2024)  
-Offizielle Archer-Administrations-Zertifizierung
-
----
-
-## Kernkompetenzen
-
-**Backend-Entwicklung**
-- .NET Ökosystem (Framework → .NET 9)
-- Microservice-Architektur
-- REST API-Design
-- Datenbankmodellierung und Optimierung
-
-**Systemintegration**
-- Enterprise-Plattform-Administration
-- Automatisierte Datafeeds
-- Systemübergreifende Workflows
-- API-getriebene Integrationen
-
-**Automatisierung & DevOps**
-- Background-Job-Systeme
-- CI/CD-Pipelines
-- Monitoring und Logging
-- Produktions-Support
-
-**Neue Technologien**
-- KI-Integration (Claude)
-- Robotik und Computer Vision
-- Industrielle Automatisierung
-- Python für technische Systeme
-
----
-
-## Tech Stack
-
-**Sprachen:** C#, TypeScript, Python  
-**Frameworks:** .NET 6/8/9, ASP.NET Core, Next.js, FastAPI  
-**Datenbanken:** SQL Server, PostgreSQL, SQLite  
-**Tools:** Entity Framework Core, Hangfire, OpenCV, Git, Azure DevOps  
-**Praktiken:** Clean Architecture, REST APIs, Microservices, CI/CD
+* **Staatlich geprüfter Techniker** (DQR 6, i.A. bis 2026)
+* **Fachinformatiker für Anwendungsentwicklung** (IHK-Abschluss, 2023)
+* **Archer Admin 1** (Offizielle Zertifizierung, 2024)
+* **AdA-Schein** (Ausbildung der Ausbilder nach AEVO, 2024)

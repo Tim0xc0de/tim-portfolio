@@ -1,105 +1,71 @@
 ---
 title: "About"
 description: "Backend Developer - .NET, APIs, Modernization"
+date: 2026-02-18
 ---
 
-I am a software developer focused on backend development, system architecture, and modern web technologies. I enjoy building structured, scalable systems and exploring how software connects with real-world automation and intelligent systems.
+# About
 
-My work spans from enterprise backend services to experimental AI-driven applications and industrial automation projects.
+**Backend Developer | .NET Specialist | State-Certified Technician in Training**
 
-## Technical Background
+I am a software developer with a passion for structured, scalable backend systems and modern web technologies. My focus is on translating complex business logic into clean code and bridging the gap between traditional software development and intelligent, automated systems.
 
-**..NET Development**
+My expertise ranges from enterprise backend services in the .NET ecosystem to projects in AI integration and industrial automation.
 
-My primary focus is modern .NET backend development, including:
+---
 
-- Microservice architecture design
-- REST API development (JSON / OpenAPI / YAML)
-- Entity Framework & database modeling
-- Modular system design and MVC architecture
-- Background job systems using Hangfire
-- Logging and monitoring with NLog
-- Migration and modernization of legacy systems to .NET 9
-- Integration of multiple utilities into unified services
+## 🛠 Technical Focus
 
-I have worked on consolidating over 30 independent backend utilities into a centralized microservice architecture with automated job scheduling and database-based monitoring.
+### .NET Development & Architecture
+At the core of my daily work is modern **.NET backend development**. I accompany systems throughout their entire lifecycle – from conception to production maintenance:
 
-## Personal Projects
+* **Architecture:** Design of microservices and modular system landscapes (MVC).
+* **API Design:** Development of robust REST APIs (OpenAPI / YAML).
+* **Modernization:** Migration of legacy systems to **.NET 9**.
+* **Automation:** Implementation of background job systems with **Hangfire**.
+* **Data & Monitoring:** Entity Framework Core, SQL modeling, and logging with **NLog**.
 
-**HandwerkerAI**
+A key focus of my experience lies in **consolidating numerous independent backend utilities** into a centralized, maintainable microservice architecture with automated monitoring.
 
-A private experimental AI platform for tradespeople built with Next.js and TypeScript.
+---
 
-Features include:
+## 🚀 Projects & Innovation
 
-- Offer and invoice generation
-- Customer database management
-- Authentication system
-- AI-powered email responses (using Claude)
-- Modular frontend architecture
-- API-driven backend structure
+### HandwerkerAI (Private Fullstack Project)
+An experimental AI-powered business platform for tradespeople, built with **Next.js and TypeScript** as a private playground for exploring modern technologies.
+* **AI Integration:** Automated offer and response generation via Claude API.
+* **Architecture:** Focus on modular frontend design and an API-driven backend structure.
+* **Purpose:** Experimental project for exploring AI integration, system architecture, and product design.
 
-The project served as a playground for exploring AI integration, system architecture, and product design.
+### Robotics & Computer Vision
+As part of my state-certified technician training, I am developing a system for automated quality inspection:
+* **Stack:** Python, FastAPI, OpenCV, and SQLite.
+* **Hardware:** Integration of industrial robotics for camera-based analysis and automated sorting of components via REST interfaces.
 
-**Robotics & Computer Vision Project**
+---
 
-As part of my professional training in Industry 4.0 and digitalization, I am developing an automated quality inspection system using:
+## 🎓 Qualifications & Education
 
-- Python & FastAPI
-- OpenCV computer vision
-- REST APIs
-- Industrial robotics
-- SQLite data logging
+### State-Certified Technician (Digitalization / Industry 4.0)
+I am currently in the final phase of my state-certified training at **DQR 6 level** (Bachelor level). This training combines in-depth software engineering with technical system integration:
+* Python programming & AI fundamentals.
+* Industrial communication (MQTT, TCP/IP) & cybersecurity.
+* PLC programming, sensor technology, and microcontroller engineering.
 
-The system uses a robotic arm to inspect manufactured components via camera-based analysis and automated sorting.
+### Certifications & Degrees
+* **IT Specialist in Application Development** (IHK, 2020 – 2023).
+* **Archer Admin 1** (Certified platform administrator).
+* **AdA Certificate** (Training the Trainer certification, 2024).
 
-## Education
+---
 
-I am currently completing advanced professional training in digitalization and Industry 4.0 at DQR 6 level (comparable to Bachelor degree).
+## 💼 Professional Experience
+In my professional work, I support the administration and integration of **enterprise platforms (Archer)**. My focus is on operational reliability, data synchronization, and continuous modernization of the backend infrastructure based on .NET.
 
-My studies include:
+---
 
-- Python programming
-- Sensor technology
-- PLC programming
-- Microcontrollers
-- Robotics and automation
-- MQTT communication
-- Networking fundamentals
-- Cybersecurity basics
-- AI fundamentals
+## 🎯 Goals & Interests
 
-My final project focuses on automated robotic quality inspection using computer vision and API-driven system architecture.
+My goal is to design systems as a software engineer that are not just code, but intelligently automate real-world processes. I am particularly interested in the intersection of **backend architecture, AI-driven applications, and physical systems**.
 
-## Certifications
-
-**IT Specialist in Application Development** (2020 - 2023)  
-Completed vocational training in software development
-
-**AdA Certificate** (2024)  
-Ausbildung der Ausbilder (Training the Trainer)
-
-**Archer Admin 1** (2024)  
-Official Archer administration certification
-
-## Professional Experience
-
-In my professional work I support enterprise system administration and integrations using Archer, focusing on application maintenance, data synchronization, and operational reliability.
-
-I also work on .NET backend modernization, migrating legacy systems, and building scalable microservice architectures.
-
-## Private
-
-Outside of work, I enjoy exploring emerging technologies such as AI, VR, and modern software architectures. I like experimenting with new frameworks, building side projects, and continuously expanding my technical skill set.
-
-I am driven by curiosity and the desire to understand how complex systems work — from backend services to robotics and intelligent automation.
-
-## Goals
-
-My long-term goal is to grow into a highly skilled software engineer who can design and build robust systems that bridge software, automation, and intelligent technologies.
-
-I am especially interested in backend architecture, AI-driven applications, and the intersection of software engineering with real-world systems.
-
-## Get in touch
-
-[Email](mailto:contact@example.com) · [LinkedIn](https://linkedin.com/in/) · [GitHub](https://github.com/)
+Outside of coding, I find balance through **sports at the gym** or enjoying a good movie at the **cinema**. This balance helps me approach complex technical challenges with fresh focus.

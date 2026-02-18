@@ -555,10 +555,10 @@ html {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 4px;
-  margin-left: 8px;
+  padding: 8px;
   color: var(--primary);
   line-height: 0;
+  flex-shrink: 0;
 }
 
 .hamburger .close-icon {
@@ -574,10 +574,31 @@ html {
 }
 
 @media (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+  }
+
   .hamburger {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .logo-switches {
+    display: flex;
+    align-items: center;
+    gap: 12px;
   }
 
   #menu {

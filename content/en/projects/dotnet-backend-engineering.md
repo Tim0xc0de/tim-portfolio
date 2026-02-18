@@ -1,138 +1,66 @@
 ---
 title: ".NET Backend Engineering & System Modernization"
-date: 2023-01-01
-description: "Maintaining, modernizing, and improving production .NET systems"
-tags: ["dotnet", "backend", "modernization", "aspnetcore", "hangfire"]
+date: 2026-02-18
+tags: ["backend", "dotnet", "architecture", "automation"]
+description: "Long-term maintenance, consolidation, and modernization of productive .NET system landscapes."
 weight: 3
 ---
 
 **Timeline:** 2023 - Present · **Category:** 💼 Professional
 
-Since 2023, a major focus of my work has been maintaining, modernizing, and improving existing .NET backend systems used in production environments.
+Since 2023, a central focus of my work has been on the maintenance, modernization, and continuous improvement of existing .NET backend systems in critical production environments. This area represents the core of my experience in software development: The transformation of grown legacy structures into modern, modular architectures.
 
-This ongoing work represents the core of my professional experience in backend development.
+## Core Tasks & Focus
+My work encompasses the entire lifecycle of system maintenance – from troubleshooting in ongoing operations to strategic architectural realignment:
+* **Version Upgrades:** Migration of applications to modern frameworks (up to .NET 9).
+* **Refactoring:** Transformation of monolithic legacy utilities into maintainable backend services.
+* **Consolidation:** Merging isolated standalone tools into centralized services.
+* **Observability:** Implementation of enhanced logging and monitoring for error diagnosis.
+* **Automation:** Reduction of manual processes through intelligent background workflows.
 
-This includes upgrading legacy applications, consolidating services, improving maintainability, and automating recurring backend processes.
+---
 
-The work spans API development, database refactoring, job automation, monitoring, and system modernization while continuously improving code structure and modularity.
+## Modular Architecture & Code Quality
+A significant part of the modernization was the transition to clean architecture patterns. To make systems extensible, I established the following principles:
 
-## Core Responsibilities
+* **Separation of Concerns:** Consistent separation of application layers.
+* **Dependency Injection (DI):** Complete decoupling of services across all levels.
+* **Service Abstraction:** Introduction of reusable components instead of tightly coupled logic.
+* **MVC & Repository Patterns:** Migration towards structured data access and processing structures to minimize side effects.
 
-- Upgrading applications to modern .NET versions
-- Refactoring legacy utilities and backend services
-- Consolidating standalone tools into centralized services
-- Improving deployment and maintenance workflows
-- Automating recurring backend tasks
-- Improving logging and system observability
-- Increasing modularity and maintainability of codebases
-
-## Modular Architecture & Code Structure
-
-A strong focus during modernization work was improving code structure and modularity to make systems easier to maintain and extend.
-
-**Key improvements:**
-- Separation of concerns across application layers
-- Modular service and data access components
-- Dependency Injection usage across services
-- Reusable service abstractions
-- Reduction of tightly coupled components
-- Easier feature extensions and testing possibilities
-
-Many utilities were refactored to follow structured backend patterns instead of monolithic logic.
-
-## MVC & Backend Design Patterns
-
-Several applications followed or were migrated towards MVC and structured backend patterns.
-
-**Work included:**
-- Controller-based request handling
-- Separation of business logic into services
-- Repository or data-access abstraction layers
-- Clean separation between UI, logic, and data layers
-- Improved routing and API endpoint structure
-
-These changes improved maintainability and reduced side effects between application components.
+---
 
 ## Utility Consolidation & Job Automation
+One of the biggest challenges was managing numerous standalone utilities that previously ran independently and without transparency.
 
-One major task involved handling more than 30 standalone utilities that previously ran independently.
+### The Solution: Centralized Backend Service
+To massively improve maintainability and monitoring, these tools were transferred into a central microservice:
+* **Centralized Execution:** Bundling all logic in a stable service.
+* **Hangfire Integration:** Implementation of robust background processing for scheduled tasks.
+* **Job Monitoring:** Introduction of database-based logging, error tracking, and automated retry strategies.
+* **Result:** Full transparency over all background processes and significant reduction of manual maintenance effort.
 
-To improve maintainability and monitoring, these utilities were consolidated into a centralized backend service.
+---
 
-**Implementation Highlights:**
-- Creation of a centralized microservice
-- Job execution handled via Hangfire
-- Scheduled and background tasks unified
-- Database logging added for job monitoring
-- Failure tracking and retry handling
-- Removal of manual execution processes
+## Technology & Stack
+My technical focus lies on the efficient use of the modern .NET ecosystem:
 
-This significantly improved transparency and maintenance.
+* **Frameworks:** .NET 9, ASP.NET Core, Entity Framework Core.
+* **APIs:** RESTful design, JSON communication, OpenAPI/Swagger documentation.
+* **Automation:** Hangfire for background processing and complex workflows.
+* **Database:** SQL Server (query optimization, refactoring, schema modernization).
+* **Monitoring:** Centralized logging with NLog and runtime behavior analysis.
 
-## Technology & Stack Experience
+---
 
-**Backend Development**
-- C# and modern .NET ecosystem
-- ASP.NET Core applications
-- REST API design and implementation
-- JSON-based API communication
-- YAML/OpenAPI API documentation
-
-**Database & Data Access**
-- Entity Framework & EF Core
-- Database migrations and schema adjustments
-- Query optimization and refactoring
-- Data structure modernization
-
-**Job Processing & Automation**
-- Hangfire background job processing
-- Scheduled tasks
-- Automated recurring workflows
-- Job retry and monitoring strategies
-
-**Logging & Monitoring**
-- Centralized logging with NLog
-- Database-based job logging
-- Error monitoring and diagnostics
-- Runtime behavior analysis
-
-**Modernization & Refactoring**
-- Migration of applications to newer .NET versions
-- Dependency cleanup and modernization
-- Refactoring legacy code structures
-- Improving maintainability of utilities
-- Removal of obsolete components
-
-## Development Impact
-
-The modernization and consolidation work resulted in:
-
-- Reduced operational complexity
-- Improved reliability of background processes
-- Easier monitoring of system jobs
-- Simplified deployment workflows
-- Reduced maintenance overhead
-- Better structured and extensible systems
-
-## Learnings
-
-- Handling legacy systems pragmatically
-- Incrementally modernizing production software
-- Designing maintainable backend services
-- Structuring background job processing
-- Improving operational visibility
-- Applying modular architecture principles in existing systems
+## Impact & Results
+The targeted modernization work led to measurable improvements in the system landscape:
+1. **Reduced Complexity:** Fewer error sources through consolidation.
+2. **Higher Reliability:** Stable background processes through professional job handling.
+3. **Faster Deployments:** Simplified CI/CD workflows through modernized project structures.
+4. **Future-Proofing:** A codebase ready for .NET 10 and upcoming requirements.
 
 ## Current Direction
+I continue to pursue the goal of making backend structures even more modular and eliminating repetitive tasks through intelligent automation. The focus is always on a pragmatic but sustainable approach to existing production software.
 
-Ongoing focus areas include:
-
-- Further backend modernization
-- Automation of recurring processes
-- API improvements and maintainability
-- Scalable backend architecture patterns
-- Continuous improvement of modular backend structures
-
-## Tech Stack
-
-C# · .NET 6/8 · ASP.NET Core · Entity Framework Core · Hangfire · NLog · SQL Server · REST APIs · Azure DevOps
+**Tech Stack:** C# · .NET 6/8/9 · ASP.NET Core · Entity Framework Core · Hangfire · NLog · SQL Server · REST APIs · Azure DevOps
