@@ -16,8 +16,8 @@ showToc: false
 * **Data Engineering:** Optimierung komplexer SQL-Server-Umgebungen und Wartung von Enterprise-Datafeeds.
 * **Tech Stack:** C#, .NET 9, ASP.NET Core, EF Core, Archer, SQL Server, Hangfire.
 
-### 2023 – 2026 | Staatlich geprüfter Techniker
-**Fachrichtung Digitalisierung / Industrie 4.0 (DQR 6 / Bachelor-Niveau)**
+### 2023 – 2026 | Staatlich geprüfter Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung
+**DQR 6 / Bachelor-Niveau**
 *Voraussichtlicher Abschluss: Juni 2026*
 * **Schwerpunkt:** Software-Engineering im Kontext industrieller Automatisierungssysteme.
 * **Innovationsprojekt:** Entwicklung eines automatisierten Qualitätskontrollsystems mittels Computer Vision (**OpenCV**) und **FastAPI**.
@@ -49,7 +49,7 @@ showToc: false
 
 ## 🎓 Abschlüsse & Zertifikate
 
-* **Staatlich geprüfter Techniker** (DQR 6, i.A. bis 2026)
+* **Staatlich geprüfter Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung** (DQR 6, i.A. bis 2026)
 * **Fachinformatiker für Anwendungsentwicklung** (IHK-Abschluss, 2023)
 * **Archer Admin 1** (Offizielle Zertifizierung, 2024)
 * **AdA-Schein** (Ausbildung der Ausbilder nach AEVO, 2024)

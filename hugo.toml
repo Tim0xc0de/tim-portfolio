@@ -31,7 +31,7 @@ buildExpired = false
       enabled = true
       title = "Tim Mehmeti"
       subtitle = "Backend developer focused on .NET. I modernize legacy systems, build clean APIs, and connect software with intelligent automation. Currently ready for new projects."
-      imageUrl = "images/profile.svg"
+      imageUrl = "images/timmehmemeti_pb.jpg"
       imageWidth = 160
       imageHeight = 160
       imageTitle = "Tim Mehmeti"
@@ -74,7 +74,7 @@ buildExpired = false
       enabled = true
       title = "Tim Mehmeti"
       subtitle = "Backend Entwickler mit Fokus auf .NET. Ich modernisiere Legacy-Systeme, baue saubere APIs und verbinde Software mit intelligenter Automatisierung. Aktuell bereit für neue Projekte."
-      imageUrl = "images/profile.svg"
+      imageUrl = "images/timmehmemeti_pb.jpg"
       imageWidth = 160
       imageHeight = 160
       imageTitle = "Tim Mehmeti"
@@ -132,7 +132,7 @@ buildExpired = false
 
   [params.label]
     text = "Tim Mehmeti"
-    icon = "images/profile.svg"
+    icon = "images/timmehmemeti_pb.jpg"
     iconHeight = 35
 
 [markup]

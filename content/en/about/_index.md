@@ -6,7 +6,7 @@ date: 2026-02-18
 
 # About
 
-**Backend Developer | .NET Specialist | State-Certified Technician in Training**
+**Backend Developer | .NET Specialist | State-certified technician in electrical engineering with a focus on information technology/digitalization**
 
 I am a software developer with a passion for structured, scalable backend systems and modern web technologies. My focus is on translating complex business logic into clean code and bridging the gap between traditional software development and intelligent, automated systems.
 
@@ -38,7 +38,7 @@ An experimental AI-powered business platform for tradespeople, built with **Next
 * **Purpose:** Experimental project for exploring AI integration, system architecture, and product design.
 
 ### Robotics & Computer Vision
-As part of my state-certified technician training, I am developing a system for automated quality inspection:
+As part of my training as a state-certified technician in electrical engineering with a focus on information technology/digitalization, I am developing a system for automated quality inspection:
 * **Stack:** Python, FastAPI, OpenCV, and SQLite.
 * **Hardware:** Integration of industrial robotics for camera-based analysis and automated sorting of components via REST interfaces.
 
@@ -46,7 +46,7 @@ As part of my state-certified technician training, I am developing a system for 
 
 ## 🎓 Qualifications & Education
 
-### State-Certified Technician (Digitalization / Industry 4.0)
+### State-certified technician in electrical engineering with a focus on information technology/digitalization
 I am currently in the final phase of my state-certified training at **DQR 6 level** (Bachelor level). This training combines in-depth software engineering with technical system integration:
 * Python programming & AI fundamentals.
 * Industrial communication (MQTT, TCP/IP) & cybersecurity.

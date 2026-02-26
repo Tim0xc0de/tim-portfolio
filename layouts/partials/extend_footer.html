@@ -18,3 +18,16 @@
     });
 })();
 </script>
+
+<script>
+(function() {
+    const targets = document.querySelectorAll('[data-disable-contextmenu]');
+    if (!targets || targets.length === 0) return;
+
+    targets.forEach(function(el) {
+        el.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    });
+})();
+</script>

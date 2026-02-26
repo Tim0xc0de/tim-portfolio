@@ -2,8 +2,10 @@
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
         {{- if .imageUrl -}}
-        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        <div class="profile-image-wrapper" data-disable-contextmenu>
+            <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        </div>
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
@@ -12,7 +14,7 @@
         <div class="credentials-badges">
             <div class="badge education">
                 <span class="badge-icon">🎓</span>
-                <span class="badge-text">{{ if eq site.Language.Lang "de" }}Industrie 4.0 (DQR 6){{ else }}Industry 4.0 (DQR 6){{ end }}</span>
+                <span class="badge-text">{{ if eq site.Language.Lang "de" }}Staatlich geprüfter Techniker (Elektrotechnik) · IT/Digitalisierung{{ else }}State-certified technician (electrical engineering) · IT/digitalization{{ end }}</span>
             </div>
             <div class="badge training">
                 <span class="badge-icon">💼</span>

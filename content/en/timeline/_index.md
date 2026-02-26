@@ -16,8 +16,8 @@ showToc: false
 * **Data Engineering:** Optimization of complex SQL Server environments and maintenance of enterprise datafeeds.
 * **Tech Stack:** C#, .NET 9, ASP.NET Core, EF Core, Archer, SQL Server, Hangfire.
 
-### 2023 – 2026 | State-Certified Technician
-**Specialization: Digitalization / Industry 4.0 (DQR 6 / Bachelor Level)**
+### 2023 – 2026 | State-certified technician in electrical engineering with a focus on information technology/digitalization
+**DQR 6 / Bachelor Level**
 *Expected completion: June 2026*
 * **Focus:** Software engineering in the context of industrial automation systems.
 * **Innovation Project:** Development of an automated quality control system using computer vision (**OpenCV**) and **FastAPI**.
@@ -49,7 +49,7 @@ showToc: false
 
 ## 🎓 Degrees & Certifications
 
-* **State-Certified Technician** (DQR 6, in progress until 2026)
+* **State-certified technician in electrical engineering with a focus on information technology/digitalization** (DQR 6, in progress until 2026)
 * **IT Specialist in Application Development** (IHK certification, 2023)
 * **Archer Admin 1** (Official certification, 2024)
 * **AdA Certificate** (Training the Trainer according to AEVO, 2024)

@@ -3,7 +3,7 @@ title: "HandwerkerAI – AI-assisted Business Platform"
 date: 2026-01-01
 description: "AI-assisted platform for craft and service businesses"
 tags: ["nextjs", "fullstack", "ai", "typescript", "prototype"]
-weight: 2
+weight: 99
 ---
 
 **Timeline:** 2026 · **Category:** 🏠 Personal

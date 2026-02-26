@@ -3,7 +3,7 @@ title: "HandwerkerAI – KI-gestützte Business-Plattform"
 date: 2026-01-01
 description: "KI-gestützte Plattform für Handwerks- und Dienstleistungsbetriebe"
 tags: ["nextjs", "fullstack", "ki", "typescript", "prototyp"]
-weight: 2
+weight: 99
 ---
 
 **Zeitraum:** 2026 · **Kategorie:** 🏠 Privat
