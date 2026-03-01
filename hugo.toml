@@ -16,6 +16,10 @@ buildExpired = false
 [params.assets]
     disableFingerprinting = true
     disableHLJS = true
+    favicon = "favicon.svg"
+    favicon16x16 = "favicon.svg"
+    favicon32x32 = "favicon.svg"
+    apple_touch_icon = "favicon.svg"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
