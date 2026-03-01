@@ -3,7 +3,7 @@ title = "Tim Mehmeti"
 theme = "PaperMod"
 
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 buildDrafts = false
@@ -29,8 +29,8 @@ buildExpired = false
 
     [languages.en.params.profileMode]
       enabled = true
-      title = "Tim Mehmeti"
-      subtitle = "Backend developer focused on .NET. I modernize legacy systems, build clean APIs, and connect software with intelligent automation. Currently ready for new projects."
+      title = "Tim Mehmeti | IT Specialist & Backend Developer"
+      subtitle = "Backend developer focused on C# and .NET. I handle the modernization of existing applications and build clean interfaces for digital workflows. Always interested in new challenges and technical exchange."
       imageUrl = "images/timmehmemeti_pb.jpg"
       imageWidth = 160
       imageHeight = 160
@@ -60,7 +60,7 @@ buildExpired = false
       weight = 20
 
     [[languages.en.menu.main]]
-      name = "Timeline"
+      name = "At a Glance"
       url = "timeline/"
       weight = 15
 
@@ -72,8 +72,8 @@ buildExpired = false
 
     [languages.de.params.profileMode]
       enabled = true
-      title = "Tim Mehmeti"
-      subtitle = "Backend Entwickler mit Fokus auf .NET. Ich modernisiere Legacy-Systeme, baue saubere APIs und verbinde Software mit intelligenter Automatisierung. Aktuell bereit für neue Projekte."
+      title = "Tim Mehmeti | IT-Specialist & Backend Developer"
+      subtitle = "Backend-Entwickler mit Fokus auf C# und .NET. Ich kümmere mich um die Modernisierung bestehender Anwendungen und baue saubere Schnittstellen für digitale Abläufe. Immer interessiert an neuen Herausforderungen und technischem Austausch."
       imageUrl = "images/timmehmemeti_pb.jpg"
       imageWidth = 160
       imageHeight = 160

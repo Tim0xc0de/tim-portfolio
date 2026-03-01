@@ -1,6 +1,6 @@
 ---
 title: "Modernisierung: .NET Framework Migration auf .NET 9"
-date: 2026-02-18
+date: 2024-01-01
 tags: ["dotnet", "migration", "backend", "modernization"]
 description: "Erfolgreiche Migration von Utilities auf das modernste .NET Framework."
 weight: 1

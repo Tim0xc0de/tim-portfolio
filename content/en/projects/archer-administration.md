@@ -1,12 +1,12 @@
 ---
 title: "Archer Administration"
-date: 2025-01-01
+date: 2023-07-01
 description: "Enterprise GRC platform administration and support"
 tags: ["archer", "grc", "enterprise", "integration", "api"]
 weight: 6
 ---
 
-**Timeline:** 2025 · **Category:** 💼 Professional
+**Timeline:** 2023 - Present · **Category:** 💼 Professional
 
 In my professional role I work with **Archer**, an enterprise platform for governance, risk and compliance management.
 

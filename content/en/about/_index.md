@@ -4,9 +4,8 @@ description: "Backend Developer - .NET, APIs, Modernization"
 date: 2026-02-18
 ---
 
-# About
 
-**Backend Developer | .NET Specialist | State-certified technician in electrical engineering with a focus on information technology/digitalization**
+**Backend Developer | .NET Specialist | State-certified technician (in progress) in electrical engineering with a focus on information technology/digitalization**
 
 I am a software developer with a passion for structured, scalable backend systems and modern web technologies. My focus is on translating complex business logic into clean code and bridging the gap between traditional software development and intelligent, automated systems.
 
@@ -24,6 +23,8 @@ At the core of my daily work is modern **.NET backend development**. I accompany
 * **Modernization:** Migration of legacy systems to **.NET 9**.
 * **Automation:** Implementation of background job systems with **Hangfire**.
 * **Data & Monitoring:** Entity Framework Core, SQL modeling, and logging with **NLog**.
+* **Databases:** SQL Server, PostgreSQL, SQLite.
+* **OOP:** Object-oriented programming and SOLID principles.
 
 A key focus of my experience lies in **consolidating numerous independent backend utilities** into a centralized, maintainable microservice architecture with automated monitoring.
 
@@ -38,7 +39,7 @@ An experimental AI-powered business platform for tradespeople, built with **Next
 * **Purpose:** Experimental project for exploring AI integration, system architecture, and product design.
 
 ### Robotics & Computer Vision
-As part of my training as a state-certified technician in electrical engineering with a focus on information technology/digitalization, I am developing a system for automated quality inspection:
+As part of my training as a state-certified technician (in progress) in electrical engineering with a focus on information technology/digitalization, I am developing a system for automated quality inspection:
 * **Stack:** Python, FastAPI, OpenCV, and SQLite.
 * **Hardware:** Integration of industrial robotics for camera-based analysis and automated sorting of components via REST interfaces.
 
@@ -46,7 +47,7 @@ As part of my training as a state-certified technician in electrical engineering
 
 ## 🎓 Qualifications & Education
 
-### State-certified technician in electrical engineering with a focus on information technology/digitalization
+### State-certified technician (in progress) in electrical engineering with a focus on information technology/digitalization
 I am currently in the final phase of my state-certified training at **DQR 6 level** (Bachelor level). This training combines in-depth software engineering with technical system integration:
 * Python programming & AI fundamentals.
 * Industrial communication (MQTT, TCP/IP) & cybersecurity.

@@ -1,51 +1,42 @@
 ---
-title: "Technical Education – Digitalization & Industry 4.0"
+title: "State-certified Technician – Digitalization & Industry 4.0"
 date: 2023-08-01
-description: "Industry 4.0, automation, robotics, and cyber-physical systems"
-tags: ["automation", "robotics", "python", "plc", "industry40", "networking"]
+description: "Electrical Engineering | Focus on Information Technology"
+tags: ["automation", "robotics", "python", "plc", "industry40", "networking", "fastapi", "opencv"]
 weight: 4
 ---
 
-**Timeline:** August 2023 - June 2026 (expected completion) · **Category:** 🏠 Personal & 🎓 Education
+**Timeline:** August 2023 - June 2026 (expected completion)
 
-Since August 2023, I have been pursuing advanced professional training in Industry 4.0 and automation systems, comparable to Bachelor level (DQR 6 / EQF 6).
+**Category:** � Professional Development & Continuing Education
 
-This is a specialized continuing education program on top of my vocational training, combining software engineering, networking, robotics, and cyber-physical systems.
+Since August 2023, I have been pursuing a state-certified technician qualification. This qualification is classified at Level 6 of the German Qualifications Framework (DQR 6), making it formally equivalent to a Bachelor's degree.
 
-## Areas of Study
+This is a specialized advanced training program that combines in-depth software engineering with networking, industrial robotics, and cyber-physical systems.
 
-### Software & Programming
+## Focus Areas
+
+### Software & Interfaces
 - **Python** for automation and technical systems
-- **API development** and system integration
-- **JSON-based communication**
-- **MQTT** communication protocols
-- **AI and computer vision** fundamentals
+- **API development** (FastAPI) and system integration
+- **Communication protocols:** Focus on MQTT and JSON-based data transfer scenarios
+- **Computer Vision:** Fundamentals of image processing with OpenCV
 
 ### Automation & Hardware
-- **PLC (SPS) programming**
+- **PLC programming** and industrial control engineering
 - **Sensor technology** and signal processing
-- **Microcontroller systems**
-- **Robotics** and industrial automation
-- **Embedded system integration**
+- **Microcontroller systems** and embedded system integration
+- **Robotics** and industrial automation workflows
 
 ### Networking & Security
-- **Network architecture** fundamentals
-- **Industrial networking** concepts
-- **Cybersecurity** basics
-- **Secure system communication**
+- **Network architecture:** Planning and configuration of industrial networks
+- **Cybersecurity basics:** Securing system communication (OT security)
+- **Infrastructure:** Routing, switching, and industrial interfaces
 
-## Practical Focus
+## Practical Focus & Engineering
 
-The education emphasizes hands-on engineering projects that combine:
-
-- Software systems
-- Robotics
-- Machine vision
-- Automation workflows
-- Real-world industrial scenarios
-
-This interdisciplinary training strengthens my ability to design and implement integrated software and hardware solutions.
+The training is highly project-oriented. The focus is on designing integrated solutions that directly connect software systems with hardware components (robotics, machine vision). This expands my profile as a software developer with a deep understanding of real industrial workflows and the digitalization of production.
 
 ## Tech Stack
 
-Python · PLC/SPS · MQTT · Microcontrollers · Sensor Technology · Robotics · Networking · OpenCV
+Python · FastAPI · OpenCV · MQTT · PLC · Microcontrollers · Sensor Technology · Robotics · Networking

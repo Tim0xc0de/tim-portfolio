@@ -1,43 +1,44 @@
 ---
-title: "Kurz & Knapp"
-description: "Beruflicher Werdegang und technischer Fokus"
-date: 2026-02-18
+title: "Über mich & beruflicher Werdegang"
+date: 2026-03-01
+description: "Backend-Spezialist mit Fokus auf .NET-Ökosysteme und industrielle Digitalisierung."
 showToc: false
 ---
 
 ## 🚀 Beruflicher Werdegang
 
-### 2023 – Heute | Backend Engineering & Enterprise Systems
-**Software-Entwickler / Backend-Spezialist**
-* **Legacy-Modernisierung:** Verantwortung für die strategische Migration geschäftskritischer .NET Framework-Anwendungen auf **.NET 9**.
-* **Architektur & Refactoring:** Konsolidierung von mehreren Backend-Utilities in eine skalierbare **Microservice-Architektur** unter Anwendung von **Clean Architecture**.
-* **Enterprise-Plattform:** Administration und Integration der Archer GRC-Plattform (Zertifizierter Archer Admin 1).
-* **Automatisierung:** Entwicklung robuster REST-APIs und Implementierung von Background-Workflows mit **Hangfire**.
-* **Data Engineering:** Optimierung komplexer SQL-Server-Umgebungen und Wartung von Enterprise-Datafeeds.
-* **Tech Stack:** C#, .NET 9, ASP.NET Core, EF Core, Archer, SQL Server, Hangfire.
+### Seit 2023 | Software-Entwickler / Backend-Spezialist
+**BASF Digital Solutions GmbH, Ludwigshafen**
 
-### 2023 – 2026 | Staatlich geprüfter Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung
-**DQR 6 / Bachelor-Niveau**
-*Voraussichtlicher Abschluss: Juni 2026*
-* **Schwerpunkt:** Software-Engineering im Kontext industrieller Automatisierungssysteme.
-* **Innovationsprojekt:** Entwicklung eines automatisierten Qualitätskontrollsystems mittels Computer Vision (**OpenCV**) und **FastAPI**.
-* **Systemintegration:** Vernetzung technischer Systeme via MQTT und TCP/IP sowie Robotik-Programmierung.
+Mein Fokus liegt auf der Modernisierung und Skalierung betriebskritischer IT-Infrastruktur.
 
-### 2020 – 2023 | Berufsausbildung
-**Fachinformatiker für Anwendungsentwicklung**
-* **Abschluss:** IHK-Zeugnis (Juli 2023).
-* **Fokus:** Fundierte Ausbildung in der Softwareentwicklung, objektorientierte Programmierung und Datenbankdesign.
+* **Legacy-Modernisierung:** Strategische Migration von .NET Framework-Anwendungen auf **.NET 9**.
+* **Architektur & Refactoring:** Konsolidierung von Backend-Utilities in eine skalierbare **Microservice-Architektur** (Clean Architecture).
+* **Enterprise-Plattform:** Administration und Integration der **Archer GRC-Plattform** (Zertifizierter Admin 1).
+* **Backend-Automatisierung:** Entwicklung hochverfügbarer REST-APIs und Implementierung von Hintergrund-Workflows mittels **Hangfire**.
+* **Data Engineering:** Optimierung komplexer MS SQL-Server-Umgebungen und Wartung von Enterprise-Datafeeds.
 
 ---
 
-## 🛠 Kernkompetenzen & Tech Stack
+### 2023 – 2026 | Staatlich geprüfter Techniker (i.A.)
+**Fachrichtung Elektrotechnik | Schwerpunkt Informationstechnik/Digitalisierung**
+*DQR 6 / Bachelor-Niveau · Voraussichtlicher Abschluss: 06/2026*
 
-### Backend & Architektur
-* **.NET Ökosystem:** Expertisen von Legacy Frameworks bis hin zu modernem .NET 9.
-* **Architekturmuster:** Clean Architecture, Microservices, RESTful API Design.
-* **Datenmanagement:** SQL Server Optimierung, Entity Framework Core, Systemintegrationen.
+Die Verknüpfung von Software-Engineering mit industrieller Automatisierungstechnik.
 
-### Tech Stack Matrix
+* **Schwerpunkt:** Integration von Software-Systemen in industrielle Umgebungen.
+* **Innovationsprojekt:** Entwicklung eines automatisierten Qualitätskontrollsystems mittels **Computer Vision (OpenCV)** und **FastAPI**.
+* **Systemintegration:** Vernetzung technischer Systeme via **MQTT** und TCP/IP sowie industrielle Robotik-Programmierung.
+
+### 2020 – 2023 | Fachinformatiker für Anwendungsentwicklung
+**Ausbildung · IHK-Abschluss**
+
+Fundierte Ausbildung in objektorientierter Softwareentwicklung, Datenbankdesign und agilen Methoden.
+
+---
+
+## 🛠 Tech Stack Matrix
+
 | Bereich | Technologien |
 | :--- | :--- |
 | **Sprachen** | C#, TypeScript, Python, SQL |
@@ -47,9 +48,9 @@ showToc: false
 
 ---
 
-## 🎓 Abschlüsse & Zertifikate
+## 🎓 Zertifikate & Qualifikationen
 
-* **Staatlich geprüfter Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung** (DQR 6, i.A. bis 2026)
-* **Fachinformatiker für Anwendungsentwicklung** (IHK-Abschluss, 2023)
-* **Archer Admin 1** (Offizielle Zertifizierung, 2024)
+* **Staatlich geprüfter Techniker** (i.A., DQR 6)
+* **Fachinformatiker für Anwendungsentwicklung** (IHK)
+* **Archer Admin 1** (Zertifizierung, 2024)
 * **AdA-Schein** (Ausbildung der Ausbilder nach AEVO, 2024)

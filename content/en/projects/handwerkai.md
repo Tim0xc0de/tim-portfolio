@@ -1,81 +1,37 @@
 ---
-title: "HandwerkerAI – AI-assisted Business Platform"
+title: "HandwerkerAI"
 date: 2026-01-01
-description: "AI-assisted platform for craft and service businesses"
-tags: ["nextjs", "fullstack", "ai", "typescript", "prototype"]
+description: "Private Fullstack Prototype & Technical Interest"
+tags: ["nextjs", "fullstack", "ai", "typescript", "prototype", "postgresql"]
 weight: 99
 ---
 
-**Timeline:** 2026 · **Category:** 🏠 Personal
+**Timeline:** 2026
 
-HandwerkerAI is a private fullstack prototype I developed in 2026 to support small craft and service businesses in handling everyday administrative tasks.
+**Category:** 🏠 Personal Project
 
-The goal was to explore how AI-assisted workflows (using Claude) could simplify processes such as offer creation, customer communication, and project organization.
+This project originated from pure personal interest to test modern fullstack workflows and the integration of AI interfaces in practice. It is a functional prototype that I use to explore how administrative processes in craft businesses can be simplified through targeted automation.
 
-The project evolved into a modular platform covering customer management, offer generation, invoicing, material planning, and scheduling.
+## Technical Implementation
 
-## Key Features
+- **Fullstack Stack:** Built with Next.js (App Router) and TypeScript to gain experience with modern web development outside the .NET ecosystem.
+- **AI Interfaces:** Integration of the Claude API for automated drafts of offers and customer emails based on structured prompts.
+- **Data Storage:** Using PostgreSQL for persistent storage of customer, project, and material data.
+- **Security:** Implementation of authentication flows with NextAuth.
+- **UI/UX:** Creation of a dashboard with TailwindCSS for managing customers (CRUD), project calculations, and appointments.
 
-- **AI-assisted offer generation** — structured prompts to create professional offers
-- **Email reply generation** — AI-powered response drafts for customer communication
-- **Customer management system** — full CRUD with search and filtering
-- **Invoice and project calculation tools** — automatic price calculations
-- **Material and resource management** — track project materials and costs
-- **Appointment and deadline tracking** — scheduling and calendar integration
-- **Authentication and session handling** — secure login via NextAuth
-- **Premium feature system** — feature gating for monetization testing
+## Focus & Learnings
 
-## Architecture
+The main focus for me was learning and experimenting with new technologies:
 
-The system was built as a modern fullstack web application.
+- **TypeScript:** Safe handling of typing in a complete web app.
+- **API Design:** Design of modular endpoints for chat functions and data processing.
+- **Rapid Iteration:** Quick implementation of features from database modeling to UI components.
 
-**Frontend**
-- Next.js App Router with React + TypeScript
-- TailwindCSS for styling
-- Dark / Light theme support
-- Responsive sidebar navigation
-- Structured forms for business data entry
+## Status
 
-**Backend**
-- Next.js API Routes
-- Authentication via NextAuth
-- AI integration via Claude API
-- Structured endpoints for chat, offers, and email generation
-
-**Data Handling**
-- LocalStorage for rapid prototyping (database migration planned)
-- Structured data models: Customers, Appointments, Materials, Offers, Invoice positions, Company settings
-
-## Development Focus
-
-The project focused on learning and experimenting with:
-
-- Fullstack workflow design from UI to API
-- Feature modularization and clean separation
-- Authentication flows with NextAuth
-- AI API integration patterns
-- Business process modelling
-- Rapid prototyping without overengineering
-- UX flows for structured data entry
-
-## Challenges & Learnings
-
-- Designing reusable API routes for different workflows
-- Structuring business data flexibly for future database migration
-- Handling feature gating (premium vs free)
-- Balancing UI simplicity with feature richness
-- Iterating rapidly without accumulating tech debt
-
-## Current Status
-
-The platform remains a private prototype, but successfully demonstrates how AI features can integrate into everyday business workflows.
-
-**Planned improvements:**
-- Database persistence (PostgreSQL)
-- Payment integration
-- Multi-user support
-- Automated testing
+The project continues privately as a playground for new features like payment integrations or automated tests.
 
 ## Tech Stack
 
-Next.js · React · TypeScript · TailwindCSS · NextAuth · Claude API · LocalStorage
+Next.js · React · TypeScript · PostgreSQL · NextAuth · Claude API · TailwindCSS

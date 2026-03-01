@@ -1,12 +1,12 @@
 ---
 title: "Archer Administration"
-date: 2025-01-01
+date: 2023-07-01
 description: "Enterprise GRC Plattform Administration und Support"
 tags: ["archer", "grc", "enterprise", "integration", "api"]
 weight: 6
 ---
 
-**Zeitraum:** 2025 · **Kategorie:** 💼 Beruflich
+**Zeitraum:** 2023 - Heute · **Kategorie:** 💼 Beruflich
 
 In meiner beruflichen Rolle arbeite ich mit **Archer**, einer Enterprise-Plattform für Governance-, Risk- und Compliance-Management.
 

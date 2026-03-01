@@ -1,6 +1,6 @@
 ---
 title: ".NET Backend Engineering & Systemmodernisierung"
-date: 2026-02-18
+date: 2023-07-01
 tags: ["backend", "dotnet", "architecture", "automation"]
 description: "Langfristige Wartung, Konsolidierung und Modernisierung produktiver .NET-Systemlandschaften."
 weight: 3

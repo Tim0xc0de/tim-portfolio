@@ -1,51 +1,42 @@
 ---
-title: "Technische Ausbildung – Digitalisierung & Industrie 4.0"
+title: "Staatlich geprüfter Techniker – Digitalisierung & Industrie 4.0"
 date: 2023-08-01
-description: "Industrie 4.0, Automatisierung, Robotik und cyber-physische Systeme"
-tags: ["automatisierung", "robotik", "python", "sps", "industrie40", "netzwerk"]
+description: "Fachrichtung Elektrotechnik | Schwerpunkt Informationstechnik"
+tags: ["automatisierung", "robotik", "python", "sps", "industrie40", "netzwerk", "fastapi", "opencv"]
 weight: 4
 ---
 
-**Zeitraum:** August 2023 - Juni 2026 (voraussichtlicher Abschluss) · **Kategorie:** 🏠 Privat & 🎓 Weiterbildung
+**Zeitraum:** August 2023 - Juni 2026 (voraussichtlicher Abschluss)
 
-Seit August 2023 absolviere ich eine berufliche Weiterbildung in Industrie 4.0 und Automatisierungssystemen, vergleichbar mit Bachelor-Niveau (DQR 6).
+**Kategorie:**  Weiterbildung & Professional Development
 
-Dies ist eine spezialisierte Weiterbildung on top zur Ausbildung, die Software-Engineering, Netzwerktechnik, Robotik und cyber-physische Systeme kombiniert.
+Seit August 2023 absolviere ich eine staatlich geprüfte Fortbildung zum Techniker. Diese Qualifikation ist im Deutschen Qualifikationsrahmen auf Niveau 6 (DQR 6) eingeordnet und damit formal einem Bachelor-Abschluss gleichgestellt.
 
-## Studieninhalte
+Es handelt sich um eine spezialisierte Aufstiegsfortbildung, die tiefgehendes Software-Engineering mit Netzwerktechnik, industrieller Robotik und cyber-physischen Systemen kombiniert.
 
-### Software & Programmierung
+## Schwerpunkte der Fortbildung
+
+### Software & Schnittstellen
 - **Python** für Automatisierung und technische Systeme
-- **API-Entwicklung** und Systemintegration
-- **JSON-basierte Kommunikation**
-- **MQTT** Kommunikationsprotokolle
-- **KI und Computer Vision** Grundlagen
+- **API-Entwicklung** (FastAPI) und Systemintegration
+- **Kommunikationsprotokolle:** Fokus auf MQTT und JSON-basierte Datentransfer-Szenarien
+- **Computer Vision:** Grundlagen der Bildverarbeitung mit OpenCV
 
 ### Automatisierung & Hardware
-- **SPS-Programmierung**
+- **SPS-Programmierung** und industrielle Steuerungstechnik
 - **Sensortechnik** und Signalverarbeitung
-- **Mikrocontroller-Systeme**
-- **Robotik** und industrielle Automatisierung
-- **Embedded-System-Integration**
+- **Mikrocontroller-Systeme** und Embedded-System-Integration
+- **Robotik** und industrielle Automatisierungsabläufe
 
-### Netzwerk & Sicherheit
-- **Netzwerkarchitektur** Grundlagen
-- **Industrielle Netzwerkkonzepte**
-- **Cybersecurity** Basics
-- **Sichere Systemkommunikation**
+### Netzwerk & Security
+- **Netzwerkarchitektur:** Planung und Konfiguration industrieller Netze
+- **Cybersecurity Basics:** Absicherung der Systemkommunikation (OT-Security)
+- **Infrastruktur:** Routing, Switching und industrielle Schnittstellen
 
-## Praktischer Fokus
+## Praxisbezug & Engineering
 
-Die Ausbildung betont praxisnahe Engineering-Projekte, die kombinieren:
-
-- Software-Systeme
-- Robotik
-- Machine Vision
-- Automatisierungs-Workflows
-- Reale industrielle Szenarien
-
-Diese interdisziplinäre Ausbildung stärkt meine Fähigkeit, integrierte Software- und Hardwarelösungen zu designen und umzusetzen.
+Die Fortbildung ist stark projektorientiert. Im Fokus steht das Design integrierter Lösungen, die Software-Systeme direkt mit Hardware-Komponenten (Robotik, Machine Vision) verknüpfen. Dies erweitert mein Profil als Softwareentwickler um ein tiefes Verständnis für reale industrielle Workflows und die Digitalisierung der Produktion.
 
 ## Tech Stack
 
-Python · SPS · MQTT · Mikrocontroller · Sensortechnik · Robotik · Netzwerktechnik · OpenCV
+Python · FastAPI · OpenCV · MQTT · SPS · Mikrocontroller · Sensortechnik · Robotik · Netzwerktechnik

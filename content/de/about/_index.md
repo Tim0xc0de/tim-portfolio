@@ -5,7 +5,7 @@ date: 2026-02-18
 ---
 
 
-**Backend Entwickler | .NET Spezialist | Staatlich geprüfter Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung**
+**Backend Entwickler | .NET Spezialist | Staatlich geprüfter Techniker i.A. der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung**
 
 Ich bin Software-Entwickler mit einer Leidenschaft für strukturierte, skalierbare Backend-Systeme und moderne Web-Technologien. Mein Fokus liegt darauf, komplexe Geschäftslogik in sauberen Code zu übersetzen und die Brücke zwischen klassischer Softwareentwicklung und intelligenten, automatisierten Systemen zu schlagen.
 
@@ -23,6 +23,8 @@ Im Zentrum meiner täglichen Arbeit steht die moderne **.NET Backend-Entwicklung
 * **Modernisierung:** Migration von Legacy-Systemen auf **.NET 9**.
 * **Automatisierung:** Implementierung von Background-Job-Systemen mit **Hangfire**.
 * **Daten & Monitoring:** Entity Framework Core, SQL-Modellierung sowie Logging mit **NLog**.
+* **Datenbanken:** SQL Server, PostgreSQL, SQLite.
+* **OOP:** Objektorientierte Programmierung und SOLID-Prinzipien.
 
 Ein Schwerpunkt meiner Erfahrung liegt in der **Konsolidierung zahlreicher unabhängiger Backend-Utilities** in eine zentralisierte, wartbare Microservice-Architektur mit automatisiertem Monitoring.
 
@@ -37,7 +39,7 @@ Eine experimentelle KI-gestützte Business-Plattform für Handwerksbetriebe, ent
 * **Zweck:** Experimentelles Projekt zum Erkunden von KI-Integration, Systemarchitektur und Produktdesign.
 
 ### Robotik & Computer Vision
-Im Rahmen meiner Weiterbildung zum staatlich geprüften Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung entwickle ich ein System zur automatisierten Qualitätsinspektion:
+Im Rahmen meiner Weiterbildung zum staatlich geprüften Techniker i.A. der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung entwickle ich ein System zur automatisierten Qualitätsinspektion:
 * **Stack:** Python, FastAPI, OpenCV und SQLite.
 * **Hardware:** Integration industrieller Robotik zur kamerabasierten Analyse und automatisierten Sortierung von Komponenten via REST-Schnittstellen.
 
@@ -45,7 +47,7 @@ Im Rahmen meiner Weiterbildung zum staatlich geprüften Techniker der Fachrichtu
 
 ## 🎓 Qualifikation & Ausbildung
 
-### Staatlich geprüfter Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung
+### Staatlich geprüfter Techniker i.A. der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung
 Ich befinde mich derzeit im Endspurt meiner staatlichen Weiterbildung auf **DQR 6 Niveau** (Bachelor-Niveau). Diese Ausbildung verbindet tiefgehendes Software-Engineering mit technischer Systemintegration:
 * Python-Programmierung & KI-Grundlagen.
 * Industrielle Kommunikation (MQTT, TCP/IP) & Cybersecurity.

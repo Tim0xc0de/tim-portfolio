@@ -1,81 +1,37 @@
 ---
-title: "HandwerkerAI – KI-gestützte Business-Plattform"
+title: "HandwerkerAI"
 date: 2026-01-01
-description: "KI-gestützte Plattform für Handwerks- und Dienstleistungsbetriebe"
-tags: ["nextjs", "fullstack", "ki", "typescript", "prototyp"]
+description: "Privater Fullstack-Prototyp & Technisches Interesse"
+tags: ["nextjs", "fullstack", "ki", "typescript", "prototyp", "postgresql"]
 weight: 99
 ---
 
-**Zeitraum:** 2026 · **Kategorie:** 🏠 Privat
+**Zeitraum:** 2026
 
-HandwerkerAI ist ein privater Fullstack-Prototyp, den ich 2026 entwickelt habe, um kleine Handwerks- und Dienstleistungsbetriebe bei alltäglichen administrativen Aufgaben zu unterstützen.
+**Kategorie:** 🏠 Privatprojekt
 
-Das Ziel war zu erforschen, wie KI-gestützte Workflows (mit Claude) Prozesse wie Angebotserstellung, Kundenkommunikation und Projektorganisation vereinfachen können.
+Dieses Projekt ist aus reinem privaten Interesse entstanden, um moderne Fullstack-Workflows und die Integration von KI-Schnittstellen in der Praxis zu testen. Es handelt sich um einen funktionalen Prototyp, mit dem ich untersuche, wie administrative Abläufe in Handwerksbetrieben durch gezielte Automatisierung vereinfacht werden können.
 
-Das Projekt entwickelte sich zu einer modularen Plattform für Kundenverwaltung, Angebotsgenerierung, Rechnungsstellung, Materialplanung und Terminverwaltung.
+## Technische Umsetzung
 
-## Hauptfunktionen
+- **Fullstack-Stack:** Realisiert mit Next.js (App Router) und TypeScript, um Erfahrungen mit moderner Web-Entwicklung außerhalb des .NET-Ökosystems zu sammeln.
+- **KI-Schnittstellen:** Integration der Claude API für automatisierte Entwürfe von Angeboten und Kunden-E-Mails auf Basis strukturierter Prompts.
+- **Datenhaltung:** Einsatz von PostgreSQL zur persistenten Speicherung von Kunden-, Projekt- und Materialdaten.
+- **Security:** Implementierung von Authentifizierungs-Flows mit NextAuth.
+- **UI/UX:** Erstellung eines Dashboards mit TailwindCSS zur Verwaltung von Kunden (CRUD), Projektkalkulationen und Terminen.
 
-- **KI-gestützte Angebotserstellung** — strukturierte Prompts für professionelle Angebote
-- **E-Mail-Antwortgenerierung** — KI-gestützte Antwortentwürfe für Kundenkommunikation
-- **Kundenverwaltungssystem** — vollständiges CRUD mit Suche und Filterung
-- **Rechnungs- und Projektkalkulationstools** — automatische Preisberechnungen
-- **Material- und Ressourcenverwaltung** — Projektmaterialien und Kosten tracken
-- **Termin- und Deadline-Tracking** — Planung und Kalenderintegration
-- **Authentifizierung und Session-Handling** — sicherer Login via NextAuth
-- **Premium-Feature-System** — Feature-Gating für Monetarisierungstests
+## Fokus & Learnings
 
-## Architektur
+Im Mittelpunkt stand für mich das Lernen und Ausprobieren neuer Technologien:
 
-Das System wurde als moderne Fullstack-Webanwendung gebaut.
+- **TypeScript:** Sicherer Umgang mit Typisierung in einer kompletten Web-App.
+- **API-Design:** Entwurf modularer Endpoints für Chat-Funktionen und Datenverarbeitung.
+- **Rapid Iteration:** Schnelle Umsetzung von Features von der Datenbank-Modellierung bis zur UI-Komponente.
 
-**Frontend**
-- Next.js App Router mit React + TypeScript
-- TailwindCSS für Styling
-- Dark / Light Theme Support
-- Responsive Sidebar-Navigation
-- Strukturierte Formulare für Geschäftsdaten
+## Status
 
-**Backend**
-- Next.js API Routes
-- Authentifizierung via NextAuth
-- KI-Integration via Claude API
-- Strukturierte Endpoints für Chat, Angebote und E-Mail-Generierung
-
-**Datenhandling**
-- LocalStorage für Rapid Prototyping (Datenbank-Migration geplant)
-- Strukturierte Datenmodelle: Kunden, Termine, Materialien, Angebote, Rechnungspositionen, Firmeneinstellungen
-
-## Entwicklungsfokus
-
-Das Projekt fokussierte sich auf Lernen und Experimentieren mit:
-
-- Fullstack-Workflow-Design von UI bis API
-- Feature-Modularisierung und saubere Trennung
-- Authentifizierungs-Flows mit NextAuth
-- KI-API-Integrationsmuster
-- Geschäftsprozessmodellierung
-- Rapid Prototyping ohne Over-Engineering
-- UX-Flows für strukturierte Dateneingabe
-
-## Herausforderungen & Learnings
-
-- Wiederverwendbare API-Routes für verschiedene Workflows designen
-- Geschäftsdaten flexibel für zukünftige Datenbank-Migration strukturieren
-- Feature-Gating handhaben (Premium vs. Free)
-- UI-Einfachheit mit Feature-Reichhaltigkeit balancieren
-- Schnell iterieren ohne technische Schulden anzuhäufen
-
-## Aktueller Status
-
-Die Plattform bleibt ein privater Prototyp, demonstriert aber erfolgreich, wie KI-Features in alltägliche Geschäftsabläufe integriert werden können.
-
-**Geplante Verbesserungen:**
-- Datenbank-Persistenz (PostgreSQL)
-- Payment-Integration
-- Multi-User-Support
-- Automatisierte Tests
+Das Projekt wird privat als Spielwiese für neue Features wie Payment-Integrationen oder automatisierte Tests weitergeführt.
 
 ## Tech Stack
 
-Next.js · React · TypeScript · TailwindCSS · NextAuth · Claude API · LocalStorage
+Next.js · React · TypeScript · PostgreSQL · NextAuth · Claude API · TailwindCSS
