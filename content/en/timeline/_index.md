@@ -53,4 +53,4 @@ Comprehensive training in object-oriented software development, database design,
 * **State-certified Technician** (in progress, DQR 6)
 * **IT Specialist in Application Development** (IHK)
 * **Archer Admin 1** (Certification, 2024)
-* **AdA Certificate** (Training the Trainer according to AEVO, 2024)
+* **AEVO Certificate** (formerly AdA Certificate) (Training the Trainer according to AEVO, 2024)

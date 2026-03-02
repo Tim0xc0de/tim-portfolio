@@ -22,7 +22,7 @@ buildExpired = false
     apple_touch_icon = "favicon.svg"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "JSON"]
 
 [languages]
   [languages.en]
@@ -125,7 +125,7 @@ buildExpired = false
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   ShowWordCount = false
-  ShowRssButtonInSectionTermList = true
+  ShowRssButtonInSectionTermList = false
   UseHugoToc = true
   disableSpecial1stPost = false
   disableScrollToTop = false

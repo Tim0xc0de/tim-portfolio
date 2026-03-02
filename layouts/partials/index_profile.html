@@ -8,56 +8,37 @@
         </div>
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
+        
+        <!-- Tagline -->
+        <p class="tagline">
+            {{ if eq site.Language.Lang "de" }}Fachinformatiker (IHK) · Staatl. gepr. Techniker i.A. · AEVO{{ else }}IT Specialist (IHK) · State-cert. Technician (in progress) · AEVO{{ end }}
+        </p>
 
-        <!-- Credentials -->
-        <div class="credentials">
-            <!-- Qualifikationen -->
-            <div class="credential-group">
-                <span class="credential-label">{{ if eq site.Language.Lang "de" }}Qualifikation{{ else }}Education{{ end }}</span>
-                <div class="credential-items">
-                    <span class="credential-item">
-                        <span class="credential-icon">🎓</span>
-                        {{ if eq site.Language.Lang "de" }}Staatl. gepr. Techniker i.A.{{ else }}State-cert. Technician (in progress){{ end }}
-                    </span>
-                    <span class="credential-item">
-                        <span class="credential-icon">💼</span>
-                        {{ if eq site.Language.Lang "de" }}Fachinformatiker (IHK){{ else }}IT Specialist (IHK){{ end }}
-                    </span>
-                </div>
-            </div>
-            <!-- Zertifikate -->
-            <div class="credential-group">
-                <span class="credential-label">{{ if eq site.Language.Lang "de" }}Zertifikate{{ else }}Certifications{{ end }}</span>
-                <div class="credential-items">
-                    <span class="credential-item">
-                        <span class="credential-icon">📜</span>
-                        {{ if eq site.Language.Lang "de" }}AdA-Schein (AEVO){{ else }}AdA Certificate (AEVO){{ end }}
-                    </span>
-                    <span class="credential-item">
-                        <span class="credential-icon">🏆</span>
-                        Archer Admin 1
-                    </span>
-                </div>
-            </div>
+        <!-- Core Skills -->
+        <div class="core-skills">
+            <span class="skill">.NET</span>
+            <span class="skill">C#</span>
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">REST APIs</span>
+            <span class="skill">{{ if eq site.Language.Lang "de" }}Datenbanken{{ else }}Databases{{ end }}</span>
+            <span class="skill">OOP</span>
+            <span class="skill">Azure DevOps</span>
+            <span class="skill">Clean Architecture</span>
         </div>
 
-        <!-- Tech Stack -->
-        <div class="tech-stack">
-            <span class="tech primary">.NET</span>
-            <span class="tech primary">C#</span>
-            <span class="tech">Python</span>
-            <span class="tech">SQL Server</span>
-            <span class="tech">REST APIs</span>
-            <span class="tech">Entity Framework</span>
-            <span class="tech">MQTT</span>
-            <span class="tech">{{ if eq site.Language.Lang "de" }}Datenbanken{{ else }}Databases{{ end }}</span>
-            <span class="tech">OOP</span>
-            <span class="tech">Azure DevOps</span>
-            <span class="tech">Clean Architecture</span>
-        </div>
+        <!-- Subtitle -->
+        <p class="subtitle-text">{{ .subtitle | markdownify }}</p>
 
-        {{- partial "social_icons.html" -}}
+        <!-- Contact Ping -->
+        <div class="ping-wrapper">
+            <a href="mailto:ping@tim-mehmeti.dev" class="ping-terminal">
+                <span class="ping-prompt">$</span>
+                <span class="ping-address"><span class="ping-command">ping</span><span class="ping-target">@tim-mehmeti.dev</span></span>
+                <span class="ping-cursor"></span>
+            </a>
+            <span class="ping-hint">{{ if eq site.Language.Lang "de" }}E-Mail Kontakt{{ else }}Email Contact{{ end }}</span>
+        </div>
 
         {{- with .buttons }}
         <div class="buttons">

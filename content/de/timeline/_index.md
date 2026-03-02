@@ -53,4 +53,4 @@ Fundierte Ausbildung in objektorientierter Softwareentwicklung, Datenbankdesign 
 * **Staatlich geprüfter Techniker** (i.A., DQR 6)
 * **Fachinformatiker für Anwendungsentwicklung** (IHK)
 * **Archer Admin 1** (Zertifizierung, 2024)
-* **AdA-Schein** (Ausbildung der Ausbilder nach AEVO, 2024)
+* **AEVO-Schein** (ehem. AdA-Schein) (Ausbildung der Ausbilder nach AEVO, 2024)

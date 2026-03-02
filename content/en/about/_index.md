@@ -56,7 +56,7 @@ I am currently in the final phase of my state-certified training at **DQR 6 leve
 ### Certifications & Degrees
 * **IT Specialist in Application Development** (IHK, 2020 – 2023).
 * **Archer Admin 1** (Certified platform administrator).
-* **AdA Certificate** (Training the Trainer certification, 2024).
+* **AEVO Certificate** (formerly AdA Certificate) (Training the Trainer certification, 2024).
 
 ---
 

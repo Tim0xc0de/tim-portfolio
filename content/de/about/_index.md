@@ -56,7 +56,7 @@ Ich befinde mich derzeit im Endspurt meiner staatlichen Weiterbildung auf **DQR 
 ### Zertifizierungen & Abschlüsse
 * **Fachinformatiker für Anwendungsentwicklung** (IHK, 2020 – 2023).
 * **Archer Admin 1** (Zertifizierter Plattform-Administrator).
-* **AdA-Schein** (Ausbilder-Eignungsverordnung, 2024).
+* **AEVO-Schein** (ehem. AdA-Schein) (Ausbilder-Eignungsverordnung, 2024).
 
 ---
 
