@@ -6,11 +6,11 @@ tags: ["robotics", "python", "opencv", "fastapi", "automation"]
 weight: 5
 ---
 
-**Timeline:** February 2026 - April 2026 (expected completion) · **Category:** 🎓 Education
+**Timeline:** February 2026 – April 2026 (completed) · **Category:** 🎓 Education
 
-As part of my final technical project, I am developing (February - April 2026) an automated robotic quality control system that combines robotics, computer vision, and backend API design.
+As part of my final technical project, I developed (February – April 2026) an automated robotic quality control system that combines robotics, computer vision, and backend API design.
 
-This project serves as the capstone of my technical education program.
+This project served as the capstone of my technical education program.
 
 The system performs objective and reproducible quality inspection of configurable 3D-printed cubes.
 

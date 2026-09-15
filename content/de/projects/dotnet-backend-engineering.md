@@ -6,9 +6,9 @@ description: "Langfristige Wartung, Konsolidierung und Modernisierung produktive
 weight: 3
 ---
 
-**Zeitraum:** 2023 - Heute · **Kategorie:** 💼 Beruflich
+**Zeitraum:** 2023 – Juli 2026 · **Kategorie:** 💼 Beruflich
 
-Seit 2023 liegt ein zentraler Schwerpunkt meiner Arbeit auf der Wartung, Modernisierung und kontinuierlichen Verbesserung bestehender .NET-Backendsysteme in kritischen Produktionsumgebungen. Dieser Bereich repräsentiert den Kern meiner Erfahrung in der Softwareentwicklung: Die Transformation gewachsener Legacy-Strukturen in moderne, modulare Architekturen.
+Von 2023 bis Juli 2026 lag ein zentraler Schwerpunkt meiner Arbeit auf der Wartung, Modernisierung und kontinuierlichen Verbesserung bestehender .NET-Backendsysteme in kritischen Produktionsumgebungen. Dieser Bereich repräsentiert den Kern meiner Erfahrung in der Softwareentwicklung: Die Transformation gewachsener Legacy-Strukturen in moderne, modulare Architekturen.
 
 ## Kernaufgaben & Fokus
 Meine Arbeit umfasst den gesamten Lebenszyklus der Systempflege – von der Fehlerbehebung im laufenden Betrieb bis hin zur strategischen Neuausrichtung der Architektur:

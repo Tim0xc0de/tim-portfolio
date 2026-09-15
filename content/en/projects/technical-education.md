@@ -6,11 +6,11 @@ tags: ["automation", "robotics", "python", "plc", "industry40", "networking", "f
 weight: 4
 ---
 
-**Timeline:** August 2023 - June 2026 (expected completion)
+**Timeline:** August 2023 – July 2026 (completed)
 
-**Category:** � Professional Development & Continuing Education
+**Category:** 🎓 Professional Development & Continuing Education
 
-Since August 2023, I have been pursuing a state-certified technician qualification. This qualification is classified at Level 6 of the German Qualifications Framework (DQR 6), making it formally equivalent to a Bachelor's degree.
+From August 2023 to July 2026, I pursued a state-certified technician qualification, completing it in July 2026. This qualification is classified at Level 6 of the German Qualifications Framework (DQR 6), making it formally equivalent to a Bachelor's degree.
 
 This is a specialized advanced training program that combines in-depth software engineering with networking, industrial robotics, and cyber-physical systems.
 

@@ -6,9 +6,9 @@ description: "Long-term maintenance, consolidation, and modernization of product
 weight: 3
 ---
 
-**Timeline:** 2023 - Present · **Category:** 💼 Professional
+**Timeline:** 2023 – July 2026 · **Category:** 💼 Professional
 
-Since 2023, a central focus of my work has been on the maintenance, modernization, and continuous improvement of existing .NET backend systems in critical production environments. This area represents the core of my experience in software development: The transformation of grown legacy structures into modern, modular architectures.
+From 2023 to July 2026, a central focus of my work was on the maintenance, modernization, and continuous improvement of existing .NET backend systems in critical production environments. This area represents the core of my experience in software development: The transformation of grown legacy structures into modern, modular architectures.
 
 ## Core Tasks & Focus
 My work encompasses the entire lifecycle of system maintenance – from troubleshooting in ongoing operations to strategic architectural realignment:

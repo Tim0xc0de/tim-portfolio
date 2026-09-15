@@ -29,12 +29,12 @@ buildExpired = false
     languageName = "English"
     weight = 2
     contentDir = "content/en"
-    title = "Tim Mehmeti — Backend Developer"
+    title = "Tim Mehmeti — Enterprise Integration & Backend Developer"
 
     [languages.en.params.profileMode]
       enabled = true
-      title = "Tim Mehmeti | IT Specialist & Backend Developer"
-      subtitle = "Backend developer focused on C# and .NET. I handle the modernization of existing applications and build clean interfaces for digital workflows. Always interested in new challenges and technical exchange."
+      title = "Tim Mehmeti | Enterprise Integration & Backend Developer"
+      subtitle = "Enterprise integration specialist with backend roots in Java, C# and .NET. I connect enterprise systems via ESB, SOA and REST APIs — and build clean interfaces for digital workflows. Always interested in new challenges and technical exchange."
       imageUrl = "images/timmehmemeti_pb.jpg"
       imageWidth = 160
       imageHeight = 160
@@ -81,12 +81,12 @@ buildExpired = false
     languageName = "Deutsch"
     weight = 1
     contentDir = "content/de"
-    title = "Tim Mehmeti — Backend Entwickler"
+    title = "Tim Mehmeti — Enterprise Integration & Backend Entwickler"
 
     [languages.de.params.profileMode]
       enabled = true
-      title = "Tim Mehmeti | IT-Specialist & Backend Developer"
-      subtitle = "Backend-Entwickler mit Fokus auf C# und .NET. Ich kümmere mich um die Modernisierung bestehender Anwendungen und baue saubere Schnittstellen für digitale Abläufe. Immer interessiert an neuen Herausforderungen und technischem Austausch."
+      title = "Tim Mehmeti | Enterprise Integration & Backend Developer"
+      subtitle = "Spezialist für Enterprise Integration mit Backend-Wurzeln in Java, C# und .NET. Ich verbinde Unternehmenssysteme über ESB, SOA und REST-APIs und baue saubere Schnittstellen für digitale Abläufe. Immer interessiert an neuen Herausforderungen und technischem Austausch."
       imageUrl = "images/timmehmemeti_pb.jpg"
       imageWidth = 160
       imageHeight = 160
@@ -131,7 +131,7 @@ buildExpired = false
 
 [params]
   env = "production"
-  description = "Tim Mehmeti - Backend Developer specializing in .NET modernization, APIs, and clean architecture"
+  description = "Tim Mehmeti - Enterprise Integration Specialist and Backend Developer: SOA, Enterprise Service Bus, REST APIs, Java and .NET"
   author = "Tim Mehmeti"
   
   defaultTheme = "auto"

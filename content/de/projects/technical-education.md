@@ -6,11 +6,11 @@ tags: ["automatisierung", "robotik", "python", "sps", "industrie40", "netzwerk",
 weight: 4
 ---
 
-**Zeitraum:** August 2023 - Juni 2026 (voraussichtlicher Abschluss)
+**Zeitraum:** August 2023 – Juli 2026 (abgeschlossen)
 
-**Kategorie:**  Weiterbildung & Professional Development
+**Kategorie:** 🎓 Weiterbildung & Professional Development
 
-Seit August 2023 absolviere ich eine staatlich geprüfte Fortbildung zum Techniker. Diese Qualifikation ist im Deutschen Qualifikationsrahmen auf Niveau 6 (DQR 6) eingeordnet und damit formal einem Bachelor-Abschluss gleichgestellt.
+Von August 2023 bis Juli 2026 habe ich eine staatlich geprüfte Fortbildung zum Techniker absolviert und im Juli 2026 abgeschlossen. Diese Qualifikation ist im Deutschen Qualifikationsrahmen auf Niveau 6 (DQR 6) eingeordnet und damit formal einem Bachelor-Abschluss gleichgestellt.
 
 Es handelt sich um eine spezialisierte Aufstiegsfortbildung, die tiefgehendes Software-Engineering mit Netzwerktechnik, industrieller Robotik und cyber-physischen Systemen kombiniert.
 

@@ -11,19 +11,22 @@
         
         <!-- Tagline -->
         <p class="tagline">
-            {{ if eq site.Language.Lang "de" }}Fachinformatiker (IHK) · Staatl. gepr. Techniker i.A. · AEVO{{ else }}IT Specialist (IHK) · State-cert. Technician (in progress) · AEVO{{ end }}
+            {{ if eq site.Language.Lang "de" }}Fachinformatiker (IHK) · Staatl. gepr. Techniker · AEVO{{ else }}IT Specialist (IHK) · State-cert. Technician · AEVO{{ end }}
         </p>
 
         <!-- Core Skills -->
         <div class="core-skills">
+            <span class="skill">Java</span>
             <span class="skill">.NET</span>
             <span class="skill">C#</span>
+            <span class="skill">TypeScript</span>
+            <span class="skill">JavaScript</span>
             <span class="skill">Python</span>
             <span class="skill">SQL</span>
-            <span class="skill">REST APIs</span>
-            <span class="skill">{{ if eq site.Language.Lang "de" }}Datenbanken{{ else }}Databases{{ end }}</span>
-            <span class="skill">OOP</span>
-            <span class="skill">Azure DevOps</span>
+            <span class="skill">{{ if eq site.Language.Lang "de" }}REST-API{{ else }}REST APIs{{ end }}</span>
+            <span class="skill">SOA</span>
+            <span class="skill">Enterprise Service Bus</span>
+            <span class="skill">{{ if eq site.Language.Lang "de" }}KI{{ else }}AI{{ end }}</span>
             <span class="skill">Clean Architecture</span>
         </div>
 

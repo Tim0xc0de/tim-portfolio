@@ -3,7 +3,7 @@ title: "Modernization: .NET Framework Migration to .NET 9"
 date: 2024-01-01
 tags: ["dotnet", "migration", "backend", "modernization"]
 description: "Successful migration of utilities to the latest .NET framework."
-weight: 1
+weight: 2
 ---
 
 **Timeline:** 2024/2025 · **Category:** 💼 Professional

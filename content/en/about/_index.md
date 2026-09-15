@@ -1,22 +1,31 @@
 ---
 title: "About"
-description: "Backend Developer - .NET, APIs, Modernization"
+description: "Enterprise Integration & Backend Development - Java, .NET, APIs"
 date: 2026-02-18
 ---
 
 
-**Backend Developer | .NET Specialist | State-certified technician (in progress) in electrical engineering with a focus on information technology/digitalization**
+**Enterprise Integration Specialist | Backend Developer | State-certified technician in electrical engineering with a focus on information technology/digitalization**
 
 I am a software developer with a passion for structured, scalable backend systems and modern web technologies. My focus is on translating complex business logic into clean code and bridging the gap between traditional software development and intelligent, automated systems.
 
-My expertise ranges from enterprise backend services in the .NET ecosystem to projects in AI integration and industrial automation.
+Since August 2026, I have been working as an **Enterprise Integration Specialist at SV Informatik GmbH**, connecting enterprise systems through service-oriented architectures. Before that, I spent six years at BASF Digital Solutions GmbH building and modernizing enterprise backends in the .NET ecosystem.
 
 ---
 
 ## 🛠 Technical Focus
 
+### Enterprise Integration & SOA
+The focus of my current work is the integration of enterprise systems:
+
+* **Enterprise Service Bus:** Connecting and orchestrating distributed systems through a central integration layer.
+* **Service-Oriented Architecture (SOA):** Design, implementation, and operation of reusable services.
+* **REST APIs:** Design of robust interfaces (OpenAPI / YAML) for cross-system data flows.
+* **Java:** Backend and integration development in the Java ecosystem.
+* **Tooling:** JIRA and Gitea as daily companions in agile development workflows.
+
 ### .NET Development & Architecture
-At the core of my daily work is modern **.NET backend development**. I accompany systems throughout their entire lifecycle – from conception to production maintenance:
+For several years, modern **.NET backend development** was at the core of my work. I accompanied systems throughout their entire lifecycle – from conception to production maintenance:
 
 * **Architecture:** Design of microservices and modular system landscapes (MVC).
 * **API Design:** Development of robust REST APIs (OpenAPI / YAML).
@@ -27,6 +36,13 @@ At the core of my daily work is modern **.NET backend development**. I accompany
 * **OOP:** Object-oriented programming and SOLID principles.
 
 A key focus of my experience lies in **consolidating numerous independent backend utilities** into a centralized, maintainable microservice architecture with automated monitoring.
+
+### Web Development & AI
+Beyond the backend, I work across the entire web stack and on AI-powered applications:
+
+* **Back-end web development:** Services, interfaces, and data models as the foundation of web applications.
+* **Web development:** **TypeScript** and **JavaScript**, modern frontend frameworks (Next.js).
+* **Artificial Intelligence (AI):** Integration of AI models into business processes and automation via APIs.
 
 ---
 
@@ -39,7 +55,7 @@ An experimental AI-powered business platform for tradespeople, built with **Next
 * **Purpose:** Experimental project for exploring AI integration, system architecture, and product design.
 
 ### Robotics & Computer Vision
-As part of my training as a state-certified technician (in progress) in electrical engineering with a focus on information technology/digitalization, I am developing a system for automated quality inspection:
+As part of my training as a state-certified technician in electrical engineering with a focus on information technology/digitalization, I developed a system for automated quality inspection:
 * **Stack:** Python, FastAPI, OpenCV, and SQLite.
 * **Hardware:** Integration of industrial robotics for camera-based analysis and automated sorting of components via REST interfaces.
 
@@ -47,13 +63,14 @@ As part of my training as a state-certified technician (in progress) in electric
 
 ## 🎓 Qualifications & Education
 
-### State-certified technician (in progress) in electrical engineering with a focus on information technology/digitalization
-I am currently in the final phase of my state-certified training at **DQR 6 level** (Bachelor level). This training combines in-depth software engineering with technical system integration:
+### State-certified technician in electrical engineering with a focus on information technology/digitalization
+In **July 2026**, I completed my state-certified training at **DQR 6 level** (Bachelor level). This training combines in-depth software engineering with technical system integration:
 * Python programming & AI fundamentals.
 * Industrial communication (MQTT, TCP/IP) & cybersecurity.
 * PLC programming, sensor technology, and microcontroller engineering.
 
 ### Certifications & Degrees
+* **State-certified Technician** (Electrical Engineering / Information Technology, DQR 6, 2026).
 * **IT Specialist in Application Development** (IHK, 2020 – 2023).
 * **Archer Admin 1** (Certified platform administrator).
 * **AEVO Certificate** (formerly AdA Certificate) (Training the Trainer certification, 2024).
@@ -61,7 +78,12 @@ I am currently in the final phase of my state-certified training at **DQR 6 leve
 ---
 
 ## 💼 Professional Experience
-In my professional work, I support the administration and integration of **enterprise platforms (Archer)**. My focus is on operational reliability, data synchronization, and continuous modernization of the backend infrastructure based on .NET.
+
+**Since August 2026 · SV Informatik GmbH — Enterprise Integration Specialist**
+Integration of enterprise systems through an Enterprise Service Bus and service-oriented architectures, including the development and operation of the corresponding REST interfaces.
+
+**August 2020 – July 2026 · BASF Digital Solutions GmbH — Vocational training, then Software Developer / Backend Specialist**
+Administration and integration of **enterprise platforms (Archer)** with a focus on operational reliability, data synchronization, and continuous modernization of the backend infrastructure based on .NET.
 
 ---
 

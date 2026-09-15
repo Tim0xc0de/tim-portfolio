@@ -1,22 +1,31 @@
 ---
 title: "Über mich"
-description: "Backend Entwickler - .NET, APIs, Modernisierung"
+description: "Enterprise Integration & Backend Entwicklung - Java, .NET, APIs"
 date: 2026-02-18
 ---
 
 
-**Backend Entwickler | .NET Spezialist | Staatlich geprüfter Techniker i.A. der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung**
+**Spezialist Enterprise Integration | Backend Entwickler | Staatlich geprüfter Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung**
 
 Ich bin Software-Entwickler mit einer Leidenschaft für strukturierte, skalierbare Backend-Systeme und moderne Web-Technologien. Mein Fokus liegt darauf, komplexe Geschäftslogik in sauberen Code zu übersetzen und die Brücke zwischen klassischer Softwareentwicklung und intelligenten, automatisierten Systemen zu schlagen.
 
-Meine Expertise reicht von Enterprise-Backend-Services im .NET-Ökosystem bis hin zu Projekten in den Bereichen KI-Integration und industrielle Automatisierung.
+Seit August 2026 arbeite ich als **Spezialist Enterprise Integration bei der SV Informatik GmbH** und verbinde dort Unternehmenssysteme über service-orientierte Architekturen. Davor habe ich sechs Jahre bei der BASF Digital Solutions GmbH Enterprise-Backends im .NET-Ökosystem entwickelt und modernisiert.
 
 ---
 
 ## 🛠 Technischer Fokus
 
+### Enterprise Integration & SOA
+Der Schwerpunkt meiner aktuellen Arbeit liegt auf der Integration von Unternehmenssystemen:
+
+* **Enterprise Service Bus:** Anbindung und Orchestrierung verteilter Systeme über einen zentralen Integrations-Layer.
+* **Serviceorientierte Architektur (SOA):** Entwurf, Umsetzung und Betrieb wiederverwendbarer Services.
+* **REST-APIs:** Konzeption robuster Schnittstellen (OpenAPI / YAML) für systemübergreifende Datenflüsse.
+* **Java:** Backend- und Integrationsentwicklung im Java-Ökosystem.
+* **Tooling:** JIRA und Gitea als tägliche Begleiter in agilen Entwicklungsabläufen.
+
 ### .NET Entwicklung & Architektur
-Im Zentrum meiner täglichen Arbeit steht die moderne **.NET Backend-Entwicklung**. Ich begleite Systeme über ihren gesamten Lebenszyklus – von der Konzeption bis zur produktiven Wartung:
+Über mehrere Jahre stand die moderne **.NET Backend-Entwicklung** im Zentrum meiner Arbeit. Ich habe Systeme über ihren gesamten Lebenszyklus begleitet – von der Konzeption bis zur produktiven Wartung:
 
 * **Architektur:** Design von Microservices und modularen Systemlandschaften (MVC).
 * **API-Design:** Entwicklung robuster REST APIs (OpenAPI / YAML).
@@ -27,6 +36,13 @@ Im Zentrum meiner täglichen Arbeit steht die moderne **.NET Backend-Entwicklung
 * **OOP:** Objektorientierte Programmierung und SOLID-Prinzipien.
 
 Ein Schwerpunkt meiner Erfahrung liegt in der **Konsolidierung zahlreicher unabhängiger Backend-Utilities** in eine zentralisierte, wartbare Microservice-Architektur mit automatisiertem Monitoring.
+
+### Webentwicklung & KI
+Neben dem Backend arbeite ich an der gesamten Web-Kette und an KI-gestützten Anwendungen:
+
+* **Back-End-Webentwicklung:** Services, Schnittstellen und Datenmodelle als Fundament von Web-Anwendungen.
+* **Webentwicklung:** **TypeScript** und **JavaScript**, moderne Frontend-Frameworks (Next.js).
+* **Künstliche Intelligenz (KI):** Integration von KI-Modellen in Geschäftsprozesse und Automatisierung über APIs.
 
 ---
 
@@ -39,7 +55,7 @@ Eine experimentelle KI-gestützte Business-Plattform für Handwerksbetriebe, ent
 * **Zweck:** Experimentelles Projekt zum Erkunden von KI-Integration, Systemarchitektur und Produktdesign.
 
 ### Robotik & Computer Vision
-Im Rahmen meiner Weiterbildung zum staatlich geprüften Techniker i.A. der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung entwickle ich ein System zur automatisierten Qualitätsinspektion:
+Im Rahmen meiner Weiterbildung zum staatlich geprüften Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung habe ich ein System zur automatisierten Qualitätsinspektion entwickelt:
 * **Stack:** Python, FastAPI, OpenCV und SQLite.
 * **Hardware:** Integration industrieller Robotik zur kamerabasierten Analyse und automatisierten Sortierung von Komponenten via REST-Schnittstellen.
 
@@ -47,13 +63,14 @@ Im Rahmen meiner Weiterbildung zum staatlich geprüften Techniker i.A. der Fachr
 
 ## 🎓 Qualifikation & Ausbildung
 
-### Staatlich geprüfter Techniker i.A. der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung
-Ich befinde mich derzeit im Endspurt meiner staatlichen Weiterbildung auf **DQR 6 Niveau** (Bachelor-Niveau). Diese Ausbildung verbindet tiefgehendes Software-Engineering mit technischer Systemintegration:
+### Staatlich geprüfter Techniker der Fachrichtung Elektrotechnik mit Schwerpunkt Informationstechnik/Digitalisierung
+Im **Juli 2026** habe ich meine staatliche Weiterbildung auf **DQR 6 Niveau** (Bachelor-Niveau) abgeschlossen. Diese Ausbildung verbindet tiefgehendes Software-Engineering mit technischer Systemintegration:
 * Python-Programmierung & KI-Grundlagen.
 * Industrielle Kommunikation (MQTT, TCP/IP) & Cybersecurity.
 * SPS-Programmierung, Sensorik und Mikrocontroller-Technik.
 
 ### Zertifizierungen & Abschlüsse
+* **Staatlich geprüfter Techniker** (Elektrotechnik / Informationstechnik, DQR 6, 2026).
 * **Fachinformatiker für Anwendungsentwicklung** (IHK, 2020 – 2023).
 * **Archer Admin 1** (Zertifizierter Plattform-Administrator).
 * **AEVO-Schein** (ehem. AdA-Schein) (Ausbilder-Eignungsverordnung, 2024).
@@ -61,7 +78,12 @@ Ich befinde mich derzeit im Endspurt meiner staatlichen Weiterbildung auf **DQR 
 ---
 
 ## 💼 Berufliche Erfahrung
-In meinem Berufsalltag unterstütze ich die Administration und Integration von **Enterprise-Plattformen (Archer)**. Mein Fokus liegt auf der operativen Zuverlässigkeit, Datensynchronisation und der kontinuierlichen Modernisierung der Backend-Infrastruktur auf Basis von .NET.
+
+**Seit August 2026 · SV Informatik GmbH — Spezialist Enterprise Integration**
+Integration von Unternehmenssystemen über Enterprise Service Bus und serviceorientierte Architekturen, inklusive Entwicklung und Betrieb der zugehörigen REST-Schnittstellen.
+
+**August 2020 – Juli 2026 · BASF Digital Solutions GmbH — Ausbildung, danach Software-Entwickler / Backend-Spezialist**
+Administration und Integration von **Enterprise-Plattformen (Archer)** mit Fokus auf operative Zuverlässigkeit, Datensynchronisation und die kontinuierliche Modernisierung der Backend-Infrastruktur auf Basis von .NET.
 
 ---
 

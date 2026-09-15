@@ -6,11 +6,11 @@ tags: ["robotik", "python", "opencv", "fastapi", "automatisierung"]
 weight: 5
 ---
 
-**Zeitraum:** Februar 2026 - April 2026 (voraussichtlicher Abschluss) · **Kategorie:** 🎓 Weiterbildung
+**Zeitraum:** Februar 2026 – April 2026 (abgeschlossen) · **Kategorie:** 🎓 Weiterbildung
 
-Als Teil meines technischen Abschlussprojekts entwickle ich (Februar - April 2026) ein automatisiertes Roboter-Qualitätskontrollsystem, das Robotik, Computer Vision und Backend-API-Design kombiniert.
+Als Teil meines technischen Abschlussprojekts habe ich (Februar – April 2026) ein automatisiertes Roboter-Qualitätskontrollsystem entwickelt, das Robotik, Computer Vision und Backend-API-Design kombiniert.
 
-Dieses Projekt dient als Abschlussprojekt meiner technischen Ausbildung.
+Dieses Projekt diente als Abschlussprojekt meiner Technikerausbildung.
 
 Das System führt objektive und reproduzierbare Qualitätsinspektionen von konfigurierbaren 3D-gedruckten Würfeln durch.
 

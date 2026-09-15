@@ -6,11 +6,11 @@ tags: ["archer", "grc", "enterprise", "integration", "api"]
 weight: 6
 ---
 
-**Timeline:** 2023 - Present · **Category:** 💼 Professional
+**Timeline:** 2023 – July 2026 · **Category:** 💼 Professional
 
-In my professional role I work with **Archer**, an enterprise platform for governance, risk and compliance management.
+In my role at BASF Digital Solutions GmbH I worked with **Archer**, an enterprise platform for governance, risk and compliance management.
 
-My work focuses on maintaining applications, supporting system integrations, and ensuring stable operation of business-critical workflows.
+My work focused on maintaining applications, supporting system integrations, and ensuring stable operation of business-critical workflows.
 
 ## Responsibilities
 
