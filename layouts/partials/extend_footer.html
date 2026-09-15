@@ -31,3 +31,26 @@
     });
 })();
 </script>
+
+<script>
+(function() {
+    if (!document.querySelector('.mermaid')) return;
+
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js';
+    script.onload = function() {
+        var isDark = document.body.classList.contains('dark') ||
+            (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches &&
+            !document.body.classList.contains('light'));
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: isDark ? 'dark' : 'default',
+            securityLevel: 'loose',
+            flowchart: { useMaxWidth: true, htmlLabels: true },
+            sequence: { useMaxWidth: true }
+        });
+        mermaid.run();
+    };
+    document.body.appendChild(script);
+})();
+</script>

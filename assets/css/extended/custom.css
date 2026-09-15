@@ -824,6 +824,36 @@ html {
   }
 }
 
+/* ===== Mermaid Diagrams ===== */
+.mermaid {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: var(--code-bg, #f8f9fa);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  overflow-x: auto;
+}
+
+.dark .mermaid {
+  background: #1e1e2e;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== Blog Post TOC ===== */
+.post-content ~ .toc,
+.post-content .toc,
+body:has(.post-tags a[href*="architektur"]) .toc,
+body:has(.post-tags a[href*="architecture"]) .toc,
+body:has(.post-tags a[href*="microservices"]) .toc {
+  display: block;
+}
+
 /* ===== Dark Mode Adjustments ===== */
 .dark {
   --accent-light: rgba(59, 130, 246, 0.15);
